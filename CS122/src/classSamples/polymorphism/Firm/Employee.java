@@ -12,11 +12,13 @@ public class Employee extends StaffMember {
 	// Constructor: Sets up this employee with the specified
 	// information.
 	// -----------------------------------------------------------------
-	public Employee(String eName, String eAddress, String ePhone, String socSecNumber, double rate) {
+	public Employee(String eName, String eAddress, String ePhone, String socSecNumber, double rate, int vacationDays) {
 		super(eName, eAddress, ePhone);
 
 		socialSecurityNumber = socSecNumber;
 		payRate = rate;
+		
+		
 	}
 
 	// -----------------------------------------------------------------
@@ -35,5 +37,9 @@ public class Employee extends StaffMember {
 	// -----------------------------------------------------------------
 	public double pay() {
 		return payRate;
+	}
+
+	public int vacationDays() {
+		return 0;
 	}
 }

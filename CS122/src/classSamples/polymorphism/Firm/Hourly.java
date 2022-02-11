@@ -11,8 +11,8 @@ public class Hourly extends Employee {
 	// Constructor: Sets up this hourly employee using the specified
 	// information.
 	// -----------------------------------------------------------------
-	public Hourly(String eName, String eAddress, String ePhone, String socSecNumber, double rate) {
-		super(eName, eAddress, ePhone, socSecNumber, rate);
+	public Hourly(String eName, String eAddress, String ePhone, String socSecNumber, double rate, int hoursWorked) {
+		super(eName, eAddress, ePhone, socSecNumber, rate, hoursWorked);
 
 		hoursWorked = 0;
 	}
@@ -45,5 +45,8 @@ public class Hourly extends Employee {
 		result += "\nCurrent hours: " + hoursWorked;
 
 		return result;
+	}
+	public int vacationDays() {
+		return 0;
 	}
 }

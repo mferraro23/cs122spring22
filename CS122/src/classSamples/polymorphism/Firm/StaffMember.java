@@ -8,7 +8,7 @@ abstract public class StaffMember {
 	protected String name;
 	protected String address;
 	protected String phone;
-
+	int vacationDays;
 	// -----------------------------------------------------------------
 	// Constructor: Sets up this staff member using the specified
 	// information.
@@ -26,7 +26,8 @@ abstract public class StaffMember {
 		String result = "Name: " + name + "\n";
 
 		result += "Address: " + address + "\n";
-		result += "Phone: " + phone;
+		result += "Phone: " + phone + "\n";
+		result += "Vacation Days: " + vacationDays;
 
 		return result;
 	}
@@ -36,4 +37,7 @@ abstract public class StaffMember {
 	// employee.
 	// -----------------------------------------------------------------
 	public abstract double pay();
+	
+	public abstract int vacationDays();
+	
 }

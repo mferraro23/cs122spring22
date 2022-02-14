@@ -10,9 +10,11 @@ public class Faculty extends Employee{
         rank = eRank;
     }
 
-    public String toString() {
+    public String toString(){
+        // Display Class Name and the Persons name
         String result = "Class: Faculty \n";
-        result += "Name: " + name + " \n";
+        result += "Name: " + name + "\n";
+        System.out.println(result);
         return result;
     }
 

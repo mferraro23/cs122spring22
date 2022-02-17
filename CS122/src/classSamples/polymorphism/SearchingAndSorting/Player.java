@@ -21,13 +21,14 @@ public class Player {
         this.XP = XP;
     }
 
-    //equals
+    public boolean equals(Object o) {
+        return this.name.equals(((Player)o).getName());
+    }
 
     public String toString(){
-        return name + " " + XP;
+        return this.name + " XP:" + this.XP;
     }
-    public int compareTo(Player other) {
-        int result = name.compareTo(other.name);
-        return result;
+    public int compareTo(Player o) {
+        return name.compareTo(o.getName());
     }
 }

@@ -1,6 +1,6 @@
 package classSamples.polymorphism.SearchingAndSorting;
 
-public class Player {
+public class Player implements Comparable<Player> {
     private final String name;
     private int XP;
 
@@ -26,9 +26,9 @@ public class Player {
     }
 
     public String toString(){
-        return this.name + " XP:" + this.XP;
+        return this.name + " XP: " + this.XP;
     }
     public int compareTo(Player o) {
-        return name.compareTo(o.getName());
+        return this.name.compareTo(o.getName()); //string has a compareTo, so we can use that again here and return that
     }
 }

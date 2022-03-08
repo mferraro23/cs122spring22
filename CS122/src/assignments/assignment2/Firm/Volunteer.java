@@ -1,4 +1,4 @@
-package classSamples.polymorphism.Firm;//********************************************************************
+package assignments.assignment2.Firm;//********************************************************************
 //  Volunteer.java       Author: Lewis/Loftus
 //
 //  Represents a staff member that works as a volunteer.
@@ -13,6 +13,12 @@ public class Volunteer extends StaffMember {
 		super(eName, eAddress, ePhone);
 	}
 
+	public String toString() {
+		String result = super.toString();
+		result += "\nVacation Days: " + vacationDays();
+		return result;
+	}
+
 	// -----------------------------------------------------------------
 	// Returns a zero pay value for this volunteer.
 	// -----------------------------------------------------------------
@@ -21,6 +27,7 @@ public class Volunteer extends StaffMember {
 	}
 	
 	public int vacationDays() {
-		return 0;
+		vacationDays = 0;
+		return vacationDays;
 	}
 }

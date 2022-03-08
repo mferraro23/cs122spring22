@@ -1,4 +1,4 @@
-package classSamples.polymorphism.Firm;//********************************************************************
+package assignments.assignment2.Firm;//********************************************************************
 //  Employee.java       Author: Lewis/Loftus
 //
 //  Represents a general paid employee.
@@ -7,16 +7,18 @@ package classSamples.polymorphism.Firm;//***************************************
 public class Employee extends StaffMember {
 	protected String socialSecurityNumber;
 	protected double payRate;
+	//protected int vacationDays;
 
 	// -----------------------------------------------------------------
 	// Constructor: Sets up this employee with the specified
 	// information.
 	// -----------------------------------------------------------------
-	public Employee(String eName, String eAddress, String ePhone, String socSecNumber, double rate, int vacationDays) {
+	public Employee(String eName, String eAddress, String ePhone, String socSecNumber, double rate) {
 		super(eName, eAddress, ePhone);
 
 		socialSecurityNumber = socSecNumber;
 		payRate = rate;
+		//vacationDays = eVacationDays;
 		
 		
 	}
@@ -28,6 +30,7 @@ public class Employee extends StaffMember {
 		String result = super.toString();
 
 		result += "\nSocial Security Number: " + socialSecurityNumber;
+		result += "\nVaction Days: " + vacationDays();
 
 		return result;
 	}
@@ -40,6 +43,7 @@ public class Employee extends StaffMember {
 	}
 
 	public int vacationDays() {
-		return 0;
+		vacationDays = 14;
+		return vacationDays;
 	}
 }

@@ -1,14 +1,15 @@
-package classSamples.polymorphism.Firm;//********************************************************************
+package assignments.assignment2.Firm;//********************************************************************
 //  StaffMember.java       Author: Lewis/Loftus
 //
 //  Represents a generic staff member.
 //********************************************************************
 
-abstract public class StaffMember {
+abstract public class StaffMember implements Payable{
 	protected String name;
 	protected String address;
 	protected String phone;
-	int vacationDays;
+	protected int vacationDays;
+
 	// -----------------------------------------------------------------
 	// Constructor: Sets up this staff member using the specified
 	// information.
@@ -25,9 +26,8 @@ abstract public class StaffMember {
 	public String toString() {
 		String result = "Name: " + name + "\n";
 
-		result += "Address: " + address + "\n";
-		result += "Phone: " + phone + "\n";
-		result += "Vacation Days: " + vacationDays;
+		result += "\nAddress: " + address;
+		result += "\nPhone: " + phone;
 
 		return result;
 	}
@@ -37,7 +37,11 @@ abstract public class StaffMember {
 	// employee.
 	// -----------------------------------------------------------------
 	public abstract double pay();
-	
-	public abstract int vacationDays();
+
+	@Override
+	public int vacationDays() {
+		vacationDays = 14;
+		return vacationDays;
+	}
 	
 }

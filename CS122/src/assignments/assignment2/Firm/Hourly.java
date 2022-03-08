@@ -1,4 +1,4 @@
-package classSamples.polymorphism.Firm;//********************************************************************
+package assignments.assignment2.Firm;//********************************************************************
 //  Hourly.java       Author: Lewis/Loftus
 //
 //  Represents an employee that gets paid by the hour.
@@ -12,7 +12,7 @@ public class Hourly extends Employee {
 	// information.
 	// -----------------------------------------------------------------
 	public Hourly(String eName, String eAddress, String ePhone, String socSecNumber, double rate, int hoursWorked) {
-		super(eName, eAddress, ePhone, socSecNumber, rate, hoursWorked);
+		super(eName, eAddress, ePhone, socSecNumber, rate);
 
 		hoursWorked = 0;
 	}
@@ -47,6 +47,7 @@ public class Hourly extends Employee {
 		return result;
 	}
 	public int vacationDays() {
-		return 0;
+		vacationDays = 7;
+		return vacationDays;
 	}
 }

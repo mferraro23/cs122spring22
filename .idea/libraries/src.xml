@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="src">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/CS122/src" />
+      <root url="file://$PROJECT_DIR$/HelloJavaFX2/src" />
+      <root url="file://$PROJECT_DIR$/HelloJavaFX/src" />
+    </SOURCES>
+  </library>
+</component>

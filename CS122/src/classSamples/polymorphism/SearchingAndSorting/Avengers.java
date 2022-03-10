@@ -8,7 +8,7 @@ public class Avengers {
         avengers[1] = new Player("Spider-man",99);
         avengers[2] = new Player("Wanda",150);
         avengers[3] = new Player("Dr. Strange",125);
-        Sorting<Player> sorts = new Sorting<>();
+        Sorting<Player> sorts = new Sorting<Player>();
         sorts.insertionSort(avengers);
         for (Player avenger: avengers){
             System.out.println(avenger);

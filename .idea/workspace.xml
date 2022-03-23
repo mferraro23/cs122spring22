@@ -5,142 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbb51ae9-49e8-4389-9584-4a96121f7e4a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/cs122spring22.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/src.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/assignments/assignment1/Account.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/assignments/assignment1/AccountDriver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/assignments/assignment1/Checking.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/assignments/assignment1/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/assignments/assignment1/Faculty.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/assignments/assignment1/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/assignments/assignment1/Saving.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/assignments/assignment1/Staff.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/assignments/assignment1/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/assignments/assignment1/UniversityDriver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/assignments/assignment2/Firm/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/assignments/assignment2/Firm/Executive.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/assignments/assignment2/Firm/Firm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/assignments/assignment2/Firm/Hourly.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/assignments/assignment2/Firm/Payable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/assignments/assignment2/Firm/Staff.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/assignments/assignment2/Firm/StaffMember.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/assignments/assignment2/Firm/Volunteer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/assignments/assignment2/Sorting/Marvel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/assignments/assignment2/Sorting/Reverse_Sorting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/assignments/assignment2/Sorting/Superhero.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/assignments/assignment2/Speaker/Cat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/assignments/assignment2/Speaker/Human.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/assignments/assignment2/Speaker/Speaker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/assignments/assignment2/Speaker/Voice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/assignments/assignment2/Speaker/VoiceDriver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/collections/Decode/Decode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/collections/MagazineRack/Magazine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/collections/MagazineRack/MagazineList$MagazineNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/collections/MagazineRack/MagazineList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/collections/MagazineRack/MagazineRack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/exceptions/CreatingExceptions/CreatingExceptions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/exceptions/CreatingExceptions/OutOfRangeException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/exceptions/ProductCodes/ProductCodes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/exceptions/Propagation/ExceptionScope.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/exceptions/Propagation/Propagation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/exceptions/TestData/TestData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/exceptions/Zero/Zero.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/gui1/Einstein/Einstein.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/gui1/HelloJavaFX/HelloJavaFX.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/gui1/Snowman/Snowman.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/gui2/ArcDisplay/ArcDisplay.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/gui2/FahrenheitConverter/FahrenheitConverter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/gui2/FahrenheitConverter/FahrenheitPane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/gui2/ImageDisplay/ImageDisplay.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/gui2/PushCounter/PushCounter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/gui2/PushCounter/PushCounter2$ButtonHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/gui2/PushCounter/PushCounter2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/gui2/PushCounter/PushCounter3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/gui3/FontDemo/FontDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/gui3/QuoteOptions/QuoteOptions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/gui3/QuoteOptions/QuoteOptionsPane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/gui3/RedOrBlue/RedOrBlue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/gui3/StyleOptions/StyleOptions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/gui3/StyleOptions/StyleOptionsPane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/gui4/Boxes/Boxes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/gui4/Bullseye/Bullseye.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/gui4/Robots/RobotFace.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/gui4/Robots/Robots.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/gui4/TransformationDemo/TransformationDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/gui5/AlienDirection/AlienDirection$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/gui5/AlienDirection/AlienDirection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/gui5/ClickDistance/ClickDistance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/gui5/RubberLines/RubberLines.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/gui6/Dots/Dots.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/gui6/JukeBox/JukeBox.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/gui6/Rocket/Rocket.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/gui7/DisplayFile/DisplayFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/gui7/EvenOdd/EvenOdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/gui7/PickerDemo/PickerDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/guipanes_demo/AnchorPaneDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/guipanes_demo/BorderPaneDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/guipanes_demo/FlowPaneDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/guipanes_demo/GridPaneDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/guipanes_demo/StackPaneDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/guipanes_demo/TilePaneDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/guipanes_demo/VBoxDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/inheritance/FoodAnalyzer/FoodAnalyzer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/inheritance/FoodAnalyzer/FoodItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/inheritance/FoodAnalyzer/Pizza.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/inheritance/Messages/Advice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/inheritance/Messages/Messages.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/inheritance/Messages/Thought.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/inheritance/Words/Book.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/inheritance/Words/Dictionary.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/inheritance/Words/Words.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/inheritance/Words2/Book2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/inheritance/Words2/Dictionary2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/inheritance/Words2/Words2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/inheritance/extraExamples/AcademicYearSpecifics.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/inheritance/extraExamples/Mario.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/inheritance/extraExamples/Mario1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/inheritance/extraExamples/MarioDriver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/inheritance/extraExamples/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/inheritance/extraExamples/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/inheritance/extraExamples/UGSpecifics.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/polymorphism/SearchingAndSorting/Avengers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/polymorphism/SearchingAndSorting/Contact.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/polymorphism/SearchingAndSorting/PhoneList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/polymorphism/SearchingAndSorting/PhoneList2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/polymorphism/SearchingAndSorting/Player.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/polymorphism/SearchingAndSorting/Searching.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/polymorphism/SearchingAndSorting/Sorting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/recursions/KochSnowflake/KochPane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/recursions/KochSnowflake/KochSnowflake.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/recursions/MazeSearch/Maze.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/recursions/MazeSearch/MazeSearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/recursions/SolveTowers/SolveTowers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/recursions/SolveTowers/TowersOfHanoi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classSamples/recursions/TiledImages/TiledImages.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classlab/solutions/week2/Rectangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classlab/solutions/week2/Shape.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classlab/solutions/week2/ShapesDriver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classlab/solutions/week2/Square.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classlab/solutions/week3/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classlab/solutions/week3/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classlab/solutions/week3/StudentDriver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classlab/week1/Rectangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classlab/week1/Shape.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classlab/week1/ShapesDriver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classlab/week1/Square.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classlab/week2/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classlab/week2/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classlab/week2/DogDriver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classlab/week7/DivisionByZero.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/cs122spring22/classlab/week7/TryCatch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/src/assignments/assignment2/Firm/Firm.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/src/assignments/assignment2/Firm/FirmDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/src/assignments/assignment2/Firm/Payable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -207,13 +72,13 @@
       <recent name="assignments.assignment2.Sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PaintThings">
-    <configuration name="Marvel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="assignments.assignment2.Sorting.Marvel" />
-      <module name="cs122spring22" />
+  <component name="RunManager" selected="Application.Firm">
+    <configuration name="Firm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="assignments.ExtraQuestions.AnotherTypeOfEmployee.Firm" />
+      <module name="CS122" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="assignments.assignment2.Sorting.*" />
+          <option name="PATTERN" value="assignments.ExtraQuestions.AnotherTypeOfEmployee.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -276,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Firm" />
         <item itemvalue="Application.PaintThings" />
         <item itemvalue="Application.VoiceDriver" />
         <item itemvalue="Application.TryCatch" />
         <item itemvalue="Application.PhoneList" />
-        <item itemvalue="Application.Marvel" />
       </list>
     </recent_temporary>
   </component>
@@ -312,7 +177,7 @@
       <workItem from="1648066742872" duration="996000" />
       <workItem from="1648067749587" duration="90000" />
       <workItem from="1648067856458" duration="1413000" />
-      <workItem from="1648069527559" duration="167000" />
+      <workItem from="1648069527559" duration="1570000" />
     </task>
     <servers />
   </component>

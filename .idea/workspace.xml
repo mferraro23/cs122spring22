@@ -72,7 +72,7 @@
       <recent name="assignments.assignment2.Sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Firm">
+  <component name="RunManager" selected="Application.Recursion">
     <configuration name="Firm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="assignments.ExtraQuestions.AnotherTypeOfEmployee.Firm" />
       <module name="CS122" />
@@ -100,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhoneList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classSamples.polymorphism.SearchingAndSorting.PhoneList" />
-      <module name="cs122spring22" />
+    <configuration name="Recursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classlab.week8.Recursion" />
+      <module name="CS122" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classSamples.polymorphism.SearchingAndSorting.*" />
+          <option name="PATTERN" value="classlab.week8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Recursion" />
         <item itemvalue="Application.Firm" />
         <item itemvalue="Application.PaintThings" />
         <item itemvalue="Application.VoiceDriver" />
         <item itemvalue="Application.TryCatch" />
-        <item itemvalue="Application.PhoneList" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +177,9 @@
       <workItem from="1648066742872" duration="996000" />
       <workItem from="1648067749587" duration="90000" />
       <workItem from="1648067856458" duration="1413000" />
-      <workItem from="1648069527559" duration="1570000" />
+      <workItem from="1648069527559" duration="1735000" />
+      <workItem from="1648131355255" duration="608000" />
+      <workItem from="1648136404424" duration="1699000" />
     </task>
     <servers />
   </component>

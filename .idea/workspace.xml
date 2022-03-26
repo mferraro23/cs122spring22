@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dbb51ae9-49e8-4389-9584-4a96121f7e4a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/CS122/src/classlab/week7/DivisionByZero.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2658Gw2ecQ57x3y2grlLg1WBNin" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="openjdk-17" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/javafx-sdk-17.0.2/lib" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.41264367" />
+    <property name="settings.editor.selected.configurable" value="advanced.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="assignments.assignment2.Firm" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Michael\Documents\GitHub\cs122spring22\CS122\src\assignments\assignment2\Firm" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="assignments.assignment2.Sorting" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Recursion">
+    <configuration name="Firm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="assignments.ExtraQuestions.AnotherTypeOfEmployee.Firm" />
+      <module name="CS122" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="assignments.ExtraQuestions.AnotherTypeOfEmployee.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaintThings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="assignments.ExtraQuestions.PaintingShapes.PaintThings" />
+      <module name="CS122" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\Michael\Downloads\javafx-sdk-17.0.2\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="assignments.ExtraQuestions.PaintingShapes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Recursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classlab.week8.Recursion" />
+      <module name="CS122" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classlab.week8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TryCatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classlab.week7.TryCatch" />
+      <module name="cs122spring22" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classlab.week7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VoiceDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="assignments.assignment2.Speaker.VoiceDriver" />
+      <module name="cs122spring22" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="assignments.assignment2.Speaker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Recursion" />
+        <item itemvalue="Application.Firm" />
+        <item itemvalue="Application.PaintThings" />
+        <item itemvalue="Application.VoiceDriver" />
+        <item itemvalue="Application.TryCatch" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dbb51ae9-49e8-4389-9584-4a96121f7e4a" name="Changes" comment="" />
+      <created>1646701996249</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646701996249</updated>
+      <workItem from="1646701999264" duration="18000" />
+      <workItem from="1646702028858" duration="715000" />
+      <workItem from="1646702764580" duration="4353000" />
+      <workItem from="1646780224655" duration="4437000" />
+      <workItem from="1646868476674" duration="4735000" />
+      <workItem from="1646926335575" duration="123000" />
+      <workItem from="1646926481142" duration="3319000" />
+      <workItem from="1647212057377" duration="242000" />
+      <workItem from="1647316002912" duration="672000" />
+      <workItem from="1647446747984" duration="855000" />
+      <workItem from="1648060930214" duration="4511000" />
+      <workItem from="1648065528622" duration="554000" />
+      <workItem from="1648066101418" duration="42000" />
+      <workItem from="1648066159789" duration="135000" />
+      <workItem from="1648066311320" duration="258000" />
+      <workItem from="1648066587960" duration="46000" />
+      <workItem from="1648066647439" duration="79000" />
+      <workItem from="1648066742872" duration="996000" />
+      <workItem from="1648067749587" duration="90000" />
+      <workItem from="1648067856458" duration="1413000" />
+      <workItem from="1648069527559" duration="1735000" />
+      <workItem from="1648131355255" duration="608000" />
+      <workItem from="1648136404424" duration="1699000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -38,11 +38,12 @@ public class Contact implements Comparable<Contact> {
 	public int compareTo(Contact other) {
 		int result;
 
-		if (lastName.equals(other.getLastName()))
+		if (lastName.equals(other.getLastName())) {
 			result = firstName.compareTo(other.getFirstName());
-		else
+		}
+		else {
 			result = lastName.compareTo(other.getLastName());
-
+		}
 		return result;
 	}
 

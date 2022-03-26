@@ -16,6 +16,8 @@ public class Snowman extends Application {
 	// Presents a snowman scene.
 	// --------------------------------------------------------------------
 	public void start(Stage primaryStage) {
+		Color x = Color.rgb(127, 127, 127)
+		
 		Ellipse base = new Ellipse(80, 210, 80, 60);
 		base.setFill(Color.WHITE);
 

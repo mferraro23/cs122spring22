@@ -1,4 +1,4 @@
-package assignments.assignment2.Firm;//********************************************************************
+package assignments.assignment2.Firm2;//********************************************************************
 //  Firm.java       Author: Lewis/Loftus
 //
 //  Demonstrates polymorphism via inheritance.

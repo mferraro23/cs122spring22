@@ -1,4 +1,4 @@
-package assignments.assignment2;//********************************************************************
+package assignments.assignment2.Firm2;//********************************************************************
 //  Executive.java       Author: Lewis/Loftus
 //
 //  Represents an executive staff member, who can earn a bonus.
@@ -11,8 +11,8 @@ public class Executive extends Employee {
 	// Constructor: Sets up this executive with the specified
 	// information.
 	// -----------------------------------------------------------------
-	public Executive(String eName, String eAddress, String ePhone, String socSecNumber, double rate, int vacationDays) {
-		super(eName, eAddress, ePhone, socSecNumber, rate, vacationDays);
+	public Executive(String eName, String eAddress, String ePhone, String socSecNumber, double rate) {
+		super(eName, eAddress, ePhone, socSecNumber, rate);
 
 		bonus = 0; // bonus has yet to be awarded
 	}
@@ -37,6 +37,7 @@ public class Executive extends Employee {
 	}
 	
 	public int vacationDays() {
-		return 28;
+		vacationDays = 28;
+		return vacationDays;
 	}
 }

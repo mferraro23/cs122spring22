@@ -12,4 +12,9 @@
       <module name="javafx-sdk-18" target="17" />
     </bytecodeTargetLevel>
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="CS122" options="--add-exports jdk.hotspot.agent/sun.jvm.hotspot=ALL-UNNAMED" />
+    </option>
+  </component>
 </project>

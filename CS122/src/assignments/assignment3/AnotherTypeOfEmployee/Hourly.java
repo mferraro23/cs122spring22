@@ -1,4 +1,4 @@
-package assignments.ExtraQuestions.AnotherTypeOfEmployee;
+package assignments.assignment3.AnotherTypeOfEmployee;
 
 public class Hourly extends Employee {
     private int hoursWorked;

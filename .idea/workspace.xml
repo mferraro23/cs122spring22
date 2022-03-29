@@ -6,15 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="dbb51ae9-49e8-4389-9584-4a96121f7e4a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/CS122/assignments/assignment2/Assignment2.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/CS122/assignments/assignment2/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/CS122/assignments/assignment2/Executive.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/CS122/assignments/assignment2/Firm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/CS122/assignments/assignment2/Hourly.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/CS122/assignments/assignment2/Payable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/CS122/assignments/assignment2/Staff.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/CS122/assignments/assignment2/StaffMember.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/CS122/assignments/assignment2/Volunteer.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +51,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="openjdk-17" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/javafx-sdk-17.0.2/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Jarvis" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -68,7 +59,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.41264367" />
-    <property name="settings.editor.selected.configurable" value="advanced.settings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -83,11 +74,11 @@
   </component>
   <component name="RunManager" selected="Application.FirmDriver">
     <configuration name="Firm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="assignments.ExtraQuestions.AnotherTypeOfEmployee.Firm" />
+      <option name="MAIN_CLASS_NAME" value="assignments.assignment3.AnotherTypeOfEmployee.Firm" />
       <module name="CS122" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="assignments.ExtraQuestions.AnotherTypeOfEmployee.*" />
+          <option name="PATTERN" value="assignments.assignment3.AnotherTypeOfEmployee.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,7 +179,7 @@
       <workItem from="1648069527559" duration="1735000" />
       <workItem from="1648131355255" duration="608000" />
       <workItem from="1648136404424" duration="1699000" />
-      <workItem from="1648563867883" duration="4789000" />
+      <workItem from="1648563867883" duration="6438000" />
     </task>
     <servers />
   </component>

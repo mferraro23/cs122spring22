@@ -1,4 +1,4 @@
-package assignments.ExtraQuestions.PaintingShapes;
+package assignments.assignment3.PaintingShapes;
 
 public abstract class Shape {
     String shapeName;

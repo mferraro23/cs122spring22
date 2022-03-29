@@ -1,4 +1,4 @@
-package assignments.ExtraQuestions.AnotherTypeOfEmployee;
+package assignments.assignment3.AnotherTypeOfEmployee;
 
 abstract public class StaffMember {
     protected String name;

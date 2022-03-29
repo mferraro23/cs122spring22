@@ -1,4 +1,4 @@
-package assignments.ExtraQuestions.PaintingShapes;
+package assignments.assignment3.PaintingShapes;
 
 public class Paint {
     protected double coverage; // num of square feet per gallon

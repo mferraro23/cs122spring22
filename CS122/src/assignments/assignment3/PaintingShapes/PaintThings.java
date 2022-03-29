@@ -1,4 +1,4 @@
-package assignments.ExtraQuestions.PaintingShapes;
+package assignments.assignment3.PaintingShapes;
 import java.text.DecimalFormat;
 
 public class PaintThings {

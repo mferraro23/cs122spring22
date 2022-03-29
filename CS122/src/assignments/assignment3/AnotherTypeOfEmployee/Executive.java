@@ -1,4 +1,4 @@
-package assignments.ExtraQuestions.AnotherTypeOfEmployee;
+package assignments.assignment3.AnotherTypeOfEmployee;
 
 public class Executive extends Employee {
     private double bonus;

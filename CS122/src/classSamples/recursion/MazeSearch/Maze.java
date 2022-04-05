@@ -1,4 +1,4 @@
-package classSamples.recursions.MazeSearch;//********************************************************************
+package classSamples.recursion.MazeSearch;//********************************************************************
 //  Maze.java       Author: Lewis/Loftus
 //
 //  Represents a maze of characters. The goal is to get from the
@@ -64,14 +64,13 @@ public class Maze {
 	// Returns the maze as a string.
 	// -----------------------------------------------------------------
 	public String toString() {
-		String result = "\n";
+		StringBuilder result = new StringBuilder("\n");
 
-		for (int row = 0; row < grid.length; row++) {
-			for (int column = 0; column < grid[row].length; column++)
-				result += grid[row][column] + "";
-			result += "\n";
+		for (int[] ints : grid) {
+			for (int anInt : ints) result.append(anInt);
+			result.append("\n");
 		}
 
-		return result;
+		return result.toString();
 	}
 }

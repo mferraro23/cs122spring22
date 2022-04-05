@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dbb51ae9-49e8-4389-9584-4a96121f7e4a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS122/src/classSamples/gui2/FahrenheitConverter/FahrenheitPane.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/src/classSamples/gui2/FahrenheitConverter/FahrenheitPane.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CS122/src/classlab/week11/ColorChangeRectangles.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/src/classlab/week11/ColorChangeRectangles.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +59,7 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.41264367" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -74,7 +75,7 @@
       <recent name="assignments.assignment2.Sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ColorChangeRectangles">
+  <component name="RunManager" selected="Application.FahrenheitConverter">
     <configuration name="ColorChangeRectangles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="classlab.week11.ColorChangeRectangles" />
       <module name="CS122" />
@@ -89,12 +90,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DogDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classlab.week2.DogDriver" />
+    <configuration name="FahrenheitConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classSamples.gui2.FahrenheitConverter.FahrenheitConverter" />
       <module name="CS122" />
+      <option name="VM_PARAMETERS" value="--module-path C:\Users\Michael\Downloads\javafx-sdk-17.0.2/lib --add-modules=javafx.controls" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classlab.week2.*" />
+          <option name="PATTERN" value="classSamples.gui2.FahrenheitConverter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,18 +151,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.ColorChangeRectangles" />
-      <item itemvalue="Application.DogDriver" />
       <item itemvalue="Application.KochSnowflake" />
       <item itemvalue="Application.KochSnowflake (1)" />
       <item itemvalue="Application.MazeSearch" />
+      <item itemvalue="Application.FahrenheitConverter" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FahrenheitConverter" />
         <item itemvalue="Application.ColorChangeRectangles" />
         <item itemvalue="Application.MazeSearch" />
         <item itemvalue="Application.KochSnowflake (1)" />
         <item itemvalue="Application.KochSnowflake" />
-        <item itemvalue="Application.DogDriver" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +202,7 @@
       <workItem from="1648735498749" duration="3725000" />
       <workItem from="1648825998124" duration="67000" />
       <workItem from="1649169679339" duration="3545000" />
-      <workItem from="1649173272720" duration="317000" />
+      <workItem from="1649173272720" duration="1587000" />
     </task>
     <servers />
   </component>

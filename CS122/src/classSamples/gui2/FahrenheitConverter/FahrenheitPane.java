@@ -6,7 +6,10 @@ import javafx.geometry.Pos;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.GridPane;
+import javafx.scene.paint.Color;
 import javafx.scene.text.Font;
+
+import java.io.IOException;
 
 //************************************************************************
 //  FahrenheitPane.java       Author: Lewis/Loftus
@@ -17,6 +20,8 @@ import javafx.scene.text.Font;
 public class FahrenheitPane extends GridPane {
 	private final Label result;
 	private final TextField fahrenheit;
+	public Color red = Color.rgb(255,0,0);
+	public Color black = Color.rgb(0,0,0);
 
 	// --------------------------------------------------------------------
 	// Sets up a GUI containing a labeled text field for converting
@@ -39,7 +44,7 @@ public class FahrenheitPane extends GridPane {
 
 		fahrenheit = new TextField();
 		fahrenheit.setFont(font);
-		fahrenheit.setPrefWidth(50);
+		fahrenheit.setPrefWidth(150);
 		fahrenheit.setAlignment(Pos.CENTER);
 		fahrenheit.setOnAction(this::processReturn);
 
@@ -59,8 +64,20 @@ public class FahrenheitPane extends GridPane {
 	// presses the return key while in the text field.
 	// --------------------------------------------------------------------
 	public void processReturn(ActionEvent event) {
-		int fahrenheitTemp = Integer.parseInt(fahrenheit.getText());
-		int celsiusTemp = (fahrenheitTemp - 32) * 5 / 9;
-		result.setText(celsiusTemp + "");
+		int fahrenheitTemp;
+		try {
+			fahrenheitTemp = Integer.parseInt(fahrenheit.getText());
+			int celsiusTemp = (fahrenheitTemp - 32) * 5 / 9;
+			result.setText(celsiusTemp + "");
+			result.setTextFill(black);
+
+		}
+		catch (NumberFormatException e) {
+			result.setText("Invalid Input");
+			result.setTextFill(red);
+		}
+
+
+
 	}
 }

@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbb51ae9-49e8-4389-9584-4a96121f7e4a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/CS122.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/CS122.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/CS122/classSamples/recursions/KochSnowflake/KochPane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/CS122/classSamples/recursions/KochSnowflake/KochSnowflake.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/CS122/classSamples/recursions/MazeSearch/Maze.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/CS122/classSamples/recursions/MazeSearch/MazeSearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/CS122/classlab/week2/DogDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/out/production/CS122/classlab/week2/DogDriver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/CS122/classlab/week3/README.MD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/src/classSamples/recursion/KochSnowflake/KochPane.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/src/classSamples/recursion/KochSnowflake/KochPane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/src/classSamples/recursion/KochSnowflake/KochSnowflake.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/src/classSamples/recursion/KochSnowflake/KochSnowflake.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/src/classSamples/recursion/MazeSearch/Maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/src/classSamples/recursion/MazeSearch/Maze.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/src/classSamples/recursion/MazeSearch/MazeSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/src/classSamples/recursion/MazeSearch/MazeSearch.java" afterDir="false" />
-    </list>
+    <list default="true" id="dbb51ae9-49e8-4389-9584-4a96121f7e4a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -209,7 +196,7 @@
       <workItem from="1648595115197" duration="1165000" />
       <workItem from="1648735498749" duration="3725000" />
       <workItem from="1648825998124" duration="67000" />
-      <workItem from="1649169679339" duration="3388000" />
+      <workItem from="1649169679339" duration="3492000" />
     </task>
     <servers />
   </component>

@@ -85,6 +85,6 @@ public class ColorChangeRectangles extends Application {
             rect.setFill(colors[rand1]);
 
         }
-        
+
     }
 }

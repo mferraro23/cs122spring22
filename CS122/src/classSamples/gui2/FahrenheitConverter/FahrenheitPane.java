@@ -9,8 +9,6 @@ import javafx.scene.layout.GridPane;
 import javafx.scene.paint.Color;
 import javafx.scene.text.Font;
 
-import java.io.IOException;
-
 //************************************************************************
 //  FahrenheitPane.java       Author: Lewis/Loftus
 //

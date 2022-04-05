@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbb51ae9-49e8-4389-9584-4a96121f7e4a" name="Changes" comment="" />
+    <list default="true" id="dbb51ae9-49e8-4389-9584-4a96121f7e4a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS122/src/classlab/week11/ColorChangeRectangles.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/src/classlab/week11/ColorChangeRectangles.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -196,7 +199,8 @@
       <workItem from="1648595115197" duration="1165000" />
       <workItem from="1648735498749" duration="3725000" />
       <workItem from="1648825998124" duration="67000" />
-      <workItem from="1649169679339" duration="3492000" />
+      <workItem from="1649169679339" duration="3545000" />
+      <workItem from="1649173272720" duration="317000" />
     </task>
     <servers />
   </component>

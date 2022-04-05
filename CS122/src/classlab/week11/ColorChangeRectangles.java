@@ -25,7 +25,8 @@ public class ColorChangeRectangles extends Application {
         Random random = new Random();
         int upperBound = 100;
         int lowerBound = 10;
-        int rand;
+        int randW;
+        int randH;
 
         //set values to rects in array
         rectArray[0] = new Rectangle();
@@ -50,9 +51,10 @@ public class ColorChangeRectangles extends Application {
         rectArray[4].setY(400);
 
         for (Rectangle rect : rectArray) {
-            rand = random.nextInt(lowerBound, upperBound);
-            rect.setWidth(rand);
-            rect.setHeight(rand);
+            randW = random.nextInt(lowerBound, upperBound);
+            randH = random.nextInt(lowerBound, upperBound);
+            rect.setWidth(randW);
+            rect.setHeight(randH);
         }
 
         //set colors to color objects in arrays
@@ -83,5 +85,6 @@ public class ColorChangeRectangles extends Application {
             rect.setFill(colors[rand1]);
 
         }
+        
     }
 }

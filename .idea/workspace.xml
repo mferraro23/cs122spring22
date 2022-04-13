@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbb51ae9-49e8-4389-9584-4a96121f7e4a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/CS122.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/CS122.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/CS122/classSamples/gui2/FahrenheitConverter/FahrenheitPane.class" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/out/production/CS122/classSamples/gui2/FahrenheitConverter/FahrenheitPane.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +68,20 @@
       <recent name="assignments.assignment2.Sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DocumentDriver">
+  <component name="RunManager" selected="Application.BaseConversion">
+    <configuration name="BaseConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="assignments.assignment4.BaseConversion.BaseConversion" />
+      <module name="CS122" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="assignments.assignment4.BaseConversion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ColorChangeRectangles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="classlab.week11.ColorChangeRectangles" />
       <module name="CS122" />
@@ -92,19 +101,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="assignments.assignment4.InvalidDocumentCodeException.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Recursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classlab.week8.Recursion" />
-      <module name="CS122" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="classlab.week8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BaseConversion" />
         <item itemvalue="Application.DocumentDriver" />
         <item itemvalue="Application.StringDriver" />
         <item itemvalue="Application.assignments.assignment4.StringTooLong.StringTooLongException" />
         <item itemvalue="Application.ColorChangeRectangles" />
-        <item itemvalue="Application.Recursion" />
       </list>
     </recent_temporary>
   </component>

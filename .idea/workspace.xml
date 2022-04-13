@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbb51ae9-49e8-4389-9584-4a96121f7e4a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/src/classSamples/gui2/FahrenheitConverter/FahrenheitPane.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/src/classSamples/gui2/FahrenheitConverter/FahrenheitPane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS122/CS122.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/CS122.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS122/out/production/CS122/classSamples/gui2/FahrenheitConverter/FahrenheitPane.class" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/out/production/CS122/classSamples/gui2/FahrenheitConverter/FahrenheitPane.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +21,6 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
-        <option value="JavaFXApplication" />
       </list>
     </option>
   </component>
@@ -47,22 +49,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="jdk.selected.JAVA_MODULE" value="openjdk-17" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/javafx-sdk-17.0.2/lib" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.41264367" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "last_opened_file_path": "C:/Users/HP/Downloads/openjfx-17.0.2_windows-x64_bin-sdk/javafx-sdk-17.0.2/lib",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="assignments.assignment2.Firm" />
@@ -74,11 +72,10 @@
       <recent name="assignments.assignment2.Sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FahrenheitConverter">
+  <component name="RunManager" selected="Application.DocumentDriver">
     <configuration name="ColorChangeRectangles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="classlab.week11.ColorChangeRectangles" />
       <module name="CS122" />
-      <option name="VM_PARAMETERS" value="--module-path C:\Users\Michael\Downloads\javafx-sdk-17.0.2/lib --add-modules=javafx.controls" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="classlab.week11.*" />
@@ -89,13 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FahrenheitConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classSamples.gui2.FahrenheitConverter.FahrenheitConverter" />
+    <configuration name="DocumentDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="assignments.assignment4.InvalidDocumentCodeException.DocumentDriver" />
       <module name="CS122" />
-      <option name="VM_PARAMETERS" value="--module-path C:\Users\Michael\Downloads\javafx-sdk-17.0.2/lib --add-modules=javafx.controls" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classSamples.gui2.FahrenheitConverter.*" />
+          <option name="PATTERN" value="assignments.assignment4.InvalidDocumentCodeException.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KochSnowflake (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classSamples.recursion.KochSnowflake.KochSnowflake" />
+    <configuration name="Recursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classlab.week8.Recursion" />
       <module name="CS122" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classSamples.recursion.KochSnowflake.*" />
+          <option name="PATTERN" value="classlab.week8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KochSnowflake" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classSamples.recursions.KochSnowflake.KochSnowflake" />
+    <configuration name="StringDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="assignments.assignment4.StringTooLong.StringDriver" />
       <module name="CS122" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classSamples.recursions.KochSnowflake.*" />
+          <option name="PATTERN" value="assignments.assignment4.StringTooLong.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MazeSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classSamples.recursion.MazeSearch.MazeSearch" />
+    <configuration name="assignments.assignment4.StringTooLong.StringTooLongException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="assignments.assignment4.StringTooLong.StringTooLongException" />
       <module name="CS122" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classSamples.recursion.MazeSearch.*" />
+          <option name="PATTERN" value="assignments.assignment4.StringTooLong.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,26 +138,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <module name="CS122" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.ColorChangeRectangles" />
-      <item itemvalue="Application.KochSnowflake" />
-      <item itemvalue="Application.KochSnowflake (1)" />
-      <item itemvalue="Application.MazeSearch" />
-      <item itemvalue="Application.FahrenheitConverter" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FahrenheitConverter" />
+        <item itemvalue="Application.DocumentDriver" />
+        <item itemvalue="Application.StringDriver" />
+        <item itemvalue="Application.assignments.assignment4.StringTooLong.StringTooLongException" />
         <item itemvalue="Application.ColorChangeRectangles" />
-        <item itemvalue="Application.MazeSearch" />
-        <item itemvalue="Application.KochSnowflake (1)" />
-        <item itemvalue="Application.KochSnowflake" />
+        <item itemvalue="Application.Recursion" />
       </list>
     </recent_temporary>
   </component>
@@ -196,12 +179,6 @@
       <workItem from="1648069527559" duration="1735000" />
       <workItem from="1648131355255" duration="608000" />
       <workItem from="1648136404424" duration="1699000" />
-      <workItem from="1648563867883" duration="6438000" />
-      <workItem from="1648595115197" duration="1165000" />
-      <workItem from="1648735498749" duration="3725000" />
-      <workItem from="1648825998124" duration="67000" />
-      <workItem from="1649169679339" duration="3545000" />
-      <workItem from="1649173272720" duration="2265000" />
     </task>
     <servers />
   </component>

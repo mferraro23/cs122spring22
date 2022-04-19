@@ -47,6 +47,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/HP/Downloads/openjfx-17.0.2_windows-x64_bin-sdk/javafx-sdk-17.0.2/lib",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -175,6 +178,7 @@
       <workItem from="1648069527559" duration="1735000" />
       <workItem from="1648131355255" duration="608000" />
       <workItem from="1648136404424" duration="1699000" />
+      <workItem from="1649904939789" duration="37000" />
     </task>
     <servers />
   </component>

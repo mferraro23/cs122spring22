@@ -27,12 +27,22 @@ public class Recursion {
 		num = num - 1;
 		return indirectFactorial(num);
 	}
-	
-}
+	/*
 
+<<<<<<< Updated upstream
 /*
  in recursion
 	recursive case
 	base case
  */
+=======
+
+	in recursion
+	recursive case
+	base case
+
+	 */
+
+}
+>>>>>>> Stashed changes
 

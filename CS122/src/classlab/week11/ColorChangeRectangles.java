@@ -77,7 +77,7 @@ public class ColorChangeRectangles extends Application {
 
     private void changeColor(ActionEvent actionEvent) {
         Random rand = new Random();
-        int upperBound = 3;
+        int upperBound = colors.length;
         int rand1;
         for (Rectangle rect : rectArray){
             //Each rectangle color will be dynamically decided

@@ -29,10 +29,10 @@ public class RedOrBlue extends Application {
 		blueButton = new Button("Blue!");
 		blueButton.setOnAction(this::processColorButton);
 
-		pane = new FlowPane(redButton, blueButton);
+		pane = new FlowPane(redButton, blueButton); // one direction, left to right or top to bottom
 		pane.setAlignment(Pos.CENTER);
-		pane.setHgap(20);
-		pane.setStyle("-fx-background-color: white");
+		pane.setHgap(20); // horizontal
+		pane.setStyle("-fx-background-color: white"); // uses css
 
 		Scene scene = new Scene(pane, 300, 100);
 
@@ -46,7 +46,7 @@ public class RedOrBlue extends Application {
 	// accordingly.
 	// --------------------------------------------------------------------
 	public void processColorButton(ActionEvent event) {
-		if (event.getSource() == redButton)
+		if (event.getSource() == redButton) // get source shows what was used, returns object type and name
 			pane.setStyle("-fx-background-color: crimson");
 		else
 			pane.setStyle("-fx-background-color: deepskyblue");

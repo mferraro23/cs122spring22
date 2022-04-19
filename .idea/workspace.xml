@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbb51ae9-49e8-4389-9584-4a96121f7e4a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_12_2022_7_42_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_12_2022_7_42_PM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-<<<<<<< Updated upstream
-=======
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/CS122/classSamples/gui2/FahrenheitConverter/FahrenheitPane.class" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/out/production/CS122/classSamples/gui2/FahrenheitConverter/FahrenheitPane.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/CS122/classSamples/gui3/FontDemo/FontDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/out/production/CS122/classSamples/gui3/FontDemo/FontDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/CS122/classlab/week11/ColorChangeRectangles.class" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/out/production/CS122/classlab/week11/ColorChangeRectangles.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/src/classSamples/gui3/FontDemo/FontDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/src/classSamples/gui3/FontDemo/FontDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/src/classSamples/gui3/RedOrBlue/RedOrBlue.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/src/classSamples/gui3/RedOrBlue/RedOrBlue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/src/classlab/week11/ColorChangeRectangles.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/src/classlab/week11/ColorChangeRectangles.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CS122/src/midterm2Review/Recursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/src/midterm2Review/Recursion.java" afterDir="false" />
->>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,40 +48,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-<<<<<<< Updated upstream
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/HP/Downloads/openjfx-17.0.2_windows-x64_bin-sdk/javafx-sdk-17.0.2/lib",
+    "last_opened_file_path": "C:/Users/Michael/Downloads/javafx-sdk-17.0.2/lib",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-=======
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="jdk.selected.JAVA_MODULE" value="openjdk-17" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../School/CS" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.41264367" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-  </component>
->>>>>>> Stashed changes
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="assignments.assignment2.Firm" />
@@ -100,15 +72,9 @@
       <recent name="assignments.assignment2.Sorting" />
     </key>
   </component>
-<<<<<<< Updated upstream
   <component name="RunManager" selected="Application.BaseConversion">
     <configuration name="BaseConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="assignments.assignment4.BaseConversion.BaseConversion" />
-=======
-  <component name="RunManager" selected="Application.FontDemo">
-    <configuration name="ColorChangeRectangles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classlab.week11.ColorChangeRectangles" />
->>>>>>> Stashed changes
       <module name="CS122" />
       <extension name="coverage">
         <pattern>
@@ -133,22 +99,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-<<<<<<< Updated upstream
-    <configuration name="DocumentDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="assignments.assignment4.InvalidDocumentCodeException.DocumentDriver" />
-=======
     <configuration name="FontDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="classSamples.gui3.FontDemo.FontDemo" />
->>>>>>> Stashed changes
       <module name="CS122" />
       <option name="VM_PARAMETERS" value="--module-path C:\Users\Michael\Downloads\javafx-sdk-17.0.2\lib --add-modules=javafx.controls" />
       <extension name="coverage">
         <pattern>
-<<<<<<< Updated upstream
-          <option name="PATTERN" value="assignments.assignment4.InvalidDocumentCodeException.*" />
-=======
           <option name="PATTERN" value="classSamples.gui3.FontDemo.*" />
->>>>>>> Stashed changes
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,21 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-<<<<<<< Updated upstream
-    <configuration name="StringDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="assignments.assignment4.StringTooLong.StringDriver" />
-      <module name="CS122" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="assignments.assignment4.StringTooLong.*" />
-=======
     <configuration name="MazeSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="classSamples.recursion.MazeSearch.MazeSearch" />
       <module name="CS122" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="classSamples.recursion.MazeSearch.*" />
->>>>>>> Stashed changes
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,22 +126,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-<<<<<<< Updated upstream
-    <configuration name="assignments.assignment4.StringTooLong.StringTooLongException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="assignments.assignment4.StringTooLong.StringTooLongException" />
-=======
     <configuration name="RedOrBlue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="classSamples.gui3.RedOrBlue.RedOrBlue" />
->>>>>>> Stashed changes
       <module name="CS122" />
       <option name="VM_PARAMETERS" value="--module-path C:\Users\Michael\Downloads\javafx-sdk-17.0.2\lib --add-modules=javafx.controls" />
       <extension name="coverage">
         <pattern>
-<<<<<<< Updated upstream
-          <option name="PATTERN" value="assignments.assignment4.StringTooLong.*" />
-=======
           <option name="PATTERN" value="classSamples.gui3.RedOrBlue.*" />
->>>>>>> Stashed changes
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -201,36 +140,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-<<<<<<< Updated upstream
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.BaseConversion" />
-        <item itemvalue="Application.DocumentDriver" />
-        <item itemvalue="Application.StringDriver" />
-        <item itemvalue="Application.assignments.assignment4.StringTooLong.StringTooLongException" />
-        <item itemvalue="Application.ColorChangeRectangles" />
-=======
+    <configuration name="StringDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <module name="CS122" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.ColorChangeRectangles" />
-      <item itemvalue="Application.MazeSearch" />
-      <item itemvalue="Application.FahrenheitConverter" />
-      <item itemvalue="Application.RedOrBlue" />
-      <item itemvalue="Application.FontDemo" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FontDemo" />
-        <item itemvalue="Application.RedOrBlue" />
-        <item itemvalue="Application.FahrenheitConverter" />
-        <item itemvalue="Application.ColorChangeRectangles" />
-        <item itemvalue="Application.MazeSearch" />
->>>>>>> Stashed changes
+        <item itemvalue="Application.BaseConversion" />
       </list>
     </recent_temporary>
   </component>
@@ -265,9 +188,7 @@
       <workItem from="1648069527559" duration="1735000" />
       <workItem from="1648131355255" duration="608000" />
       <workItem from="1648136404424" duration="1699000" />
-<<<<<<< Updated upstream
       <workItem from="1649904939789" duration="37000" />
-=======
       <workItem from="1648563867883" duration="6438000" />
       <workItem from="1648595115197" duration="1165000" />
       <workItem from="1648735498749" duration="3725000" />
@@ -283,7 +204,7 @@
       <workItem from="1649347750145" duration="3000" />
       <workItem from="1649729603206" duration="815000" />
       <workItem from="1649772970011" duration="2033000" />
->>>>>>> Stashed changes
+      <workItem from="1650387464814" duration="27000" />
     </task>
     <servers />
   </component>

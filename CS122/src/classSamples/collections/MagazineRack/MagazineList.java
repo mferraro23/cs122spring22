@@ -32,6 +32,14 @@ public class MagazineList {
 			current.next = node;
 		}
 	}
+	// ----------------------------------------------------------------
+	// Remove from the beginning of the list.
+	// ----------------------------------------------------------------
+	public void removeFirst() {
+		MagazineNode current = list;
+		this.list = list.next.next;
+		current.next = null;
+	}
 
 	// ----------------------------------------------------------------
 	// Returns this list of magazines as a string.

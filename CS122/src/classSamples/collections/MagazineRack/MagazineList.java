@@ -37,23 +37,23 @@ public class MagazineList {
 	// Returns this list of magazines as a string.
 	// ----------------------------------------------------------------
 	public String toString() {
-		String result = "";
+		StringBuilder result = new StringBuilder();
 
 		MagazineNode current = list;
 
 		while (current != null) {
-			result += current.magazine + "\n";
+			result.append(current.magazine).append("\n");
 			current = current.next;
 		}
 
-		return result;
+		return result.toString();
 	}
 
 	// *****************************************************************
 	// An inner class that represents a node in the magazine list.
 	// The public variables are accessed by the MagazineList class.
 	// *****************************************************************
-	private class MagazineNode {
+	private static class MagazineNode {
 		public Magazine magazine;
 		public MagazineNode next;
 

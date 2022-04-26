@@ -2,6 +2,7 @@ package assignments.assignment5;
 
 public class IntList {
     private IntNode front;
+    private IntNode back;
 
     public IntList(){
         front = null;
@@ -34,6 +35,11 @@ public class IntList {
         if (front != null)
             front = front.next;
     }
+    public void removeLast(){
+        int length = list.length;
+
+    }
+
     //------------------------------------------------
 // Prints the list elements from first to last.
 //------------------------------------------------

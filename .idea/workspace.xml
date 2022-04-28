@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbb51ae9-49e8-4389-9584-4a96121f7e4a" name="Changes" comment="testing">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/CS122/assignments/assignment5/IntList.class" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/out/production/CS122/assignments/assignment5/IntList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/src/assignments/assignment5/IntList.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/src/assignments/assignment5/IntList.java" afterDir="false" />
+    <list default="true" id="dbb51ae9-49e8-4389-9584-4a96121f7e4a" name="Changes" comment="finished part one of assignment 5">
+      <change beforePath="$PROJECT_DIR$/CS122/src/assignments/assignment5/IntList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS122/src/assignments/assignment5/IntListTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS122/src/assignments/assignment5/IntNode.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651168776986</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="finished part one of assignment 5">
+      <created>1651171896946</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1651171896946</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +240,7 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
     <MESSAGE value="changes" />
     <MESSAGE value="testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="testing" />
+    <MESSAGE value="finished part one of assignment 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished part one of assignment 5" />
   </component>
 </project>

@@ -1,4 +1,4 @@
-package classSamples.collections.samples.Magazines;
+package classSamples.collections.samples.samples.Magazines;
 
 public class MagazineListDriver {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package classSamples.collections.samples.Ex;
+package classSamples.collections.samples.samples.Ex;
 
 public class Palindrome {
 //    public static boolean isPalindrome(String s) {

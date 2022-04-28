@@ -1,4 +1,4 @@
-package classSamples.collections.samples.Ex;//********************************************************************
+package classSamples.collections.samples.samples.Ex;//********************************************************************
 //  TestData.java       Author: Lewis/Loftus
 //
 //  Demonstrates I/O exceptions and the use of a character file

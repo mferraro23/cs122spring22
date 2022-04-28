@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbb51ae9-49e8-4389-9584-4a96121f7e4a" name="Changes" comment="Merge remote-tracking branch 'origin/master'" />
+    <list default="true" id="dbb51ae9-49e8-4389-9584-4a96121f7e4a" name="Changes" comment="Merge remote-tracking branch 'origin/master'">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS122/out/production/CS122/assignments/assignment5/IntList.class" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/out/production/CS122/assignments/assignment5/IntList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS122/out/production/CS122/assignments/assignment5/IntListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/out/production/CS122/assignments/assignment5/IntListTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS122/src/assignments/assignment5/IntList.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/src/assignments/assignment5/IntList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS122/src/assignments/assignment5/IntListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/src/assignments/assignment5/IntListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS122/src/classSamples/collections/samples/samples/Ex/Links.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS122/src/classSamples/collections/samples/samples/Ex/LinksRef.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/src/classSamples/collections/samples/samples/Ex/LinksRef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS122/src/classSamples/collections/samples/samples/Ex/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/src/classSamples/collections/samples/samples/Ex/Palindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS122/src/classSamples/collections/samples/samples/Ex/TestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/src/classSamples/collections/samples/samples/Ex/TestData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS122/src/classSamples/collections/samples/samples/Magazine10/Magazine.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/src/classSamples/collections/samples/samples/Magazine10/Magazine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS122/src/classSamples/collections/samples/samples/Magazine10/MagazineList.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/src/classSamples/collections/samples/samples/Magazine10/MagazineList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS122/src/classSamples/collections/samples/samples/Magazine10/MagazineListDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/src/classSamples/collections/samples/samples/Magazine10/MagazineListDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS122/src/classSamples/collections/samples/samples/Magazines/Magazine.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/src/classSamples/collections/samples/samples/Magazines/Magazine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS122/src/classSamples/collections/samples/samples/Magazines/MagazineList.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/src/classSamples/collections/samples/samples/Magazines/MagazineList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS122/src/classSamples/collections/samples/samples/Magazines/MagazineListDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/src/classSamples/collections/samples/samples/Magazines/MagazineListDriver.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,7 +85,7 @@
       <recent name="assignments.assignment2.Sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Decode">
+  <component name="RunManager" selected="Application.IntListTest">
     <configuration name="BaseConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="assignments.assignment4.BaseConversion.BaseConversion" />
       <module name="CS122" />
@@ -137,8 +153,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Decode" />
         <item itemvalue="Application.IntListTest" />
+        <item itemvalue="Application.Decode" />
         <item itemvalue="Application.BaseConversion" />
         <item itemvalue="Application.DocumentDriver" />
         <item itemvalue="Application.StringDriver" />
@@ -183,6 +199,7 @@
       <workItem from="1650848365245" duration="2017000" />
       <workItem from="1650950124295" duration="20000" />
       <workItem from="1650950419133" duration="82000" />
+      <workItem from="1651089860533" duration="11173000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/master'">
       <created>1650950454816</created>

@@ -20,12 +20,12 @@ public class TestQueue {
         q.enqueue("mousse");
         q.enqueue("cheesecake");
         q.enqueue (" ice cream");
-        System.out.println("\nHere's the queue again: " + q);
-        System.out.println("Now it contains " + q.size() + " items.");
-        System.out.println("\nDe-queuing everything in queue");
-        while (!q.isEmpty())
-            System.out.println(q.dequeue());
-        System.out.println("\nNow it contains " + q.size() + " items.");
+        //System.out.println("\nHere's the queue again: " + q);
+        //System.out.println("Now it contains " + q.size() + " items.");
+        //System.out.println("\nDe-queuing everything in queue");
+        //while (!q.isEmpty())
+            //System.out.println(q.dequeue());
+        //System.out.println("\nNow it contains " + q.size() + " items.");
         if (q.isEmpty())
             System.out.println("Queue is empty!");
         else

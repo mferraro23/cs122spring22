@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbb51ae9-49e8-4389-9584-4a96121f7e4a" name="Changes" comment="finished part one of assignment 5">
-      <change beforePath="$PROJECT_DIR$/CS122/src/assignments/assignment5/IntList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/src/assignments/assignment5/IntListTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/src/assignments/assignment5/IntNode.java" beforeDir="false" />
+    <list default="true" id="dbb51ae9-49e8-4389-9584-4a96121f7e4a" name="Changes" comment="added folders for different projects">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651171896946</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added folders for different projects">
+      <created>1651171998333</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1651171998333</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,6 +246,7 @@
     <MESSAGE value="changes" />
     <MESSAGE value="testing" />
     <MESSAGE value="finished part one of assignment 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished part one of assignment 5" />
+    <MESSAGE value="added folders for different projects" />
+    <option name="LAST_COMMIT_MESSAGE" value="added folders for different projects" />
   </component>
 </project>

@@ -22,24 +22,28 @@ public class LinkedQueue implements QueueADT{
     public Object dequeue()
     {
         Object item = null;
+        return null;
     }
     //---------------------------------------------
     // Returns true if queue is empty.
     //---------------------------------------------
     public boolean isEmpty()
     {
+        return false;
     }
     //---------------------------------------------
     // Returns true if queue is full, but it never is.
     //---------------------------------------------
     public boolean isFull()
     {
+        return false;
     }
     //---------------------------------------------
     // Returns the number of elements in the queue.
     //---------------------------------------------
     public int size()
     {
+        return 0;
     }
     //---------------------------------------------
     // Returns a string containing the elements of the queue

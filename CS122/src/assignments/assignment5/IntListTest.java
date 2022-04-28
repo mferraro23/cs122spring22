@@ -61,6 +61,10 @@ public class IntListTest {
                 newValue = scan.nextInt();
                 list.replace(oldValue, newValue);
             }
+            case 8 -> {
+                int length = list.length();
+                System.out.println("The length of the list is: " + length);
+            }
             default -> System.out.println("Sorry, invalid choice");
         }
     }
@@ -77,8 +81,9 @@ public class IntListTest {
         System.out.println("3: Remove an integer from the front of the list");
         System.out.println("4: Remove an integer from the end of the list");
         System.out.println("5: Print the list");
-        System.out.println("6: Returns a String containing the print value of the");
+        System.out.println("6: Returns a String containing the print value of the list.");
         System.out.println("7: Replace all occurrences of a value in the list with a new one.");
+        System.out.println("8: Return the length of the list.");
         System.out.print("\nEnter your choice: ");
     }
 

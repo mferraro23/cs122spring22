@@ -79,19 +79,10 @@ public class IntList {
     // Replaces an exact element with a different one
     //-----------------------------------------
     public void replace(int oldValue, int newValue){
-        while (this.front != null){
-            if (front.val == oldValue) {
-                front.val = newValue;
-                replace(oldValue, newValue);
-                System.out.println("hit");
-            }
-            if (this.front.next == null){
-                break;
-            }
-            else{
-                this.front = this.front.next;
-            }
-
+        IntNode temp = front;
+        while (temp != null) {
+            temp.val = temp.val == oldValue ? newValue : temp.val;
+            temp = temp.next;
         }
     }
     //-----------------------------------------

@@ -79,7 +79,6 @@ public class IntList {
     // Replaces an exact element with a different one
     //-----------------------------------------
     public void replace(int oldValue, int newValue){
-        boolean running = true;
         IntNode temp = front;
         while (temp != null){
             if (front.val == oldValue) {

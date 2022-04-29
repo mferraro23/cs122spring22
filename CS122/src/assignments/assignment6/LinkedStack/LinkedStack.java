@@ -37,7 +37,6 @@ public class LinkedStack implements StackADT {
             return item;
         }
         else{
-            top.setElement(null);
             return null;
         }
     }

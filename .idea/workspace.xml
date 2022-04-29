@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dbb51ae9-49e8-4389-9584-4a96121f7e4a" name="Changes" comment="added enqueue, working&#10;added dequeue, not working&#10;added isEmpty, working, more tests required&#10;added isFull, working&#10;added size, working&#10;added LinkedQueue, working">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/CS122/assignments/assignment5/LinkedQueue/LinkedQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/out/production/CS122/assignments/assignment5/LinkedQueue/LinkedQueue.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CS122/src/assignments/assignment6/LinkedStack/LinkedStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/src/assignments/assignment6/LinkedStack/LinkedStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/src/assignments/assignment6/LinkedStack/StackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/src/assignments/assignment6/LinkedStack/StackTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

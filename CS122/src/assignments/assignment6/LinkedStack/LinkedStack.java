@@ -15,7 +15,14 @@ public class LinkedStack implements StackADT {
     // ---------------------------------------------------
     @Override
     public void push(Object val) {
-        top.setElement(val);
+        Node index = new Node(val);
+        if (top.getElement() == null){
+            top.setElement(val);
+        }
+        else {
+            top.setNext(top);
+            top.setElement(val);
+        }
     }
     // ---------------------------------------------------
     // Removes and returns value at top of stack. If stack

@@ -1,13 +1,13 @@
 package assignments.assignment6.LinkedStack;
 
-import java.util.Stack;
 
 public class LinkedStack implements StackADT {
+    private Node top; // reference to top of stack
     // ---------------------------------------------------
     // Constructor -- initializes top
     // ---------------------------------------------------
     public LinkedStack(){
-
+        top = new Node();
     }
     // ---------------------------------------------------
     // Adds element to top of stack if it's not full, else
@@ -15,7 +15,7 @@ public class LinkedStack implements StackADT {
     // ---------------------------------------------------
     @Override
     public void push(Object val) {
-
+        top.setElement(val);
     }
     // ---------------------------------------------------
     // Removes and returns value at top of stack. If stack
@@ -23,14 +23,20 @@ public class LinkedStack implements StackADT {
     // ---------------------------------------------------
     @Override
     public Object pop() {
-        return null;
+        Object item;
+        if(!isEmpty()) {
+            item = top.getElement();
+            top = top.getNext();
+            return item;
+        }
+        else return null;
     }
     // ---------------------------------------------------
     // Returns true if stack is empty, false otherwise.
     // ---------------------------------------------------
     @Override
     public boolean isEmpty() {
-        return false;
+        return top == null;
     }
     // ---------------------------------------------------
     // Returns true if stack is full, false otherwise.

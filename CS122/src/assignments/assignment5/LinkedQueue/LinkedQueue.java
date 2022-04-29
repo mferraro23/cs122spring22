@@ -35,12 +35,12 @@ public class LinkedQueue implements QueueADT{
     //---------------------------------------------
     public Object dequeue(){
         Object item = null;
+
         if (!isEmpty()){
             item = front.getElement();
-            front.setElement(null);
+            front = front.getNext();
             numElements--;
         }
-        front.setElement(front.getNext().getElement());
         return item;
     }
     //---------------------------------------------

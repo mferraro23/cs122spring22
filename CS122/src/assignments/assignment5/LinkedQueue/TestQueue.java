@@ -14,6 +14,8 @@ public class TestQueue {
         System.out.println("\nDe-queuing two...");
         System.out.println(q.dequeue());
         System.out.println(q.dequeue());
+        System.out.println("\nNow it contains " + q.size() + " items.");
+        System.out.println(q);
         System.out.println("\nEnqueuing cookies, profiteroles, mousse, cheesecake, ice cream:");
         q.enqueue("cookies");
         q.enqueue("profiteroles");

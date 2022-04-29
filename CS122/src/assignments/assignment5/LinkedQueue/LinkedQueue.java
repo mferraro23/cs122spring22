@@ -1,6 +1,5 @@
 package assignments.assignment5.LinkedQueue;
 
-import java.util.NoSuchElementException;
 
 public class LinkedQueue implements QueueADT{
     private Node front, back;
@@ -37,9 +36,9 @@ public class LinkedQueue implements QueueADT{
         Object item = null;
 
         if (!isEmpty()){
+            numElements--;
             item = front.getElement();
             front = front.getNext();
-            numElements--;
         }
         return item;
     }

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbb51ae9-49e8-4389-9584-4a96121f7e4a" name="Changes" comment="edits">
+    <list default="true" id="dbb51ae9-49e8-4389-9584-4a96121f7e4a" name="Changes" comment="added enqueue, working&#10;added dequeue, not working&#10;added isEmpty, working, more tests required&#10;added isFull, working&#10;added size, working&#10;added LinkedQueue, working">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CS122/out/production/CS122/assignments/assignment5/LinkedQueue/LinkedQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/out/production/CS122/assignments/assignment5/LinkedQueue/LinkedQueue.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CS122/out/production/CS122/assignments/assignment5/LinkedQueue/TestQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/out/production/CS122/assignments/assignment5/LinkedQueue/TestQueue.class" afterDir="false" />
@@ -236,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651172200136</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added enqueue, working&#10;added dequeue, not working&#10;added isEmpty, working, more tests required&#10;added isFull, working&#10;added size, working&#10;added LinkedQueue, working">
+      <created>1651189615310</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1651189615310</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,6 +267,7 @@
     <MESSAGE value="finished part one of assignment 5" />
     <MESSAGE value="added folders for different projects" />
     <MESSAGE value="edits" />
-    <option name="LAST_COMMIT_MESSAGE" value="edits" />
+    <MESSAGE value="added enqueue, working&#10;added dequeue, not working&#10;added isEmpty, working, more tests required&#10;added isFull, working&#10;added size, working&#10;added LinkedQueue, working" />
+    <option name="LAST_COMMIT_MESSAGE" value="added enqueue, working&#10;added dequeue, not working&#10;added isEmpty, working, more tests required&#10;added isFull, working&#10;added size, working&#10;added LinkedQueue, working" />
   </component>
 </project>

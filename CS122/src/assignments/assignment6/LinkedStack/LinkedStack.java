@@ -14,14 +14,18 @@ public class LinkedStack implements StackADT {
     // does nothing.
     // ---------------------------------------------------
     @Override
+    // ---------------------------------------------------
+    // Not working
+    // ---------------------------------------------------
     public void push(Object val) {
-        Node temp = new Node(val);
-        if (top.getElement() == null){
-            top.setElement(val);
+        if (top.getElement() != null) {
+            while (top.getElement() != null) {
+                Node newNode = new Node(val);
+                top.setNext(newNode);
+            }
         }
-        else {
+        else{
             top.setElement(val);
-            top.setNext(temp);
         }
     }
     // ---------------------------------------------------

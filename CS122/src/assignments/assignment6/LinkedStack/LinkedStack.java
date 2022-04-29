@@ -15,13 +15,13 @@ public class LinkedStack implements StackADT {
     // ---------------------------------------------------
     @Override
     public void push(Object val) {
-        Node index = new Node(val);
+        Node temp = new Node(val);
         if (top.getElement() == null){
             top.setElement(val);
         }
         else {
-            top.setNext(top);
             top.setElement(val);
+            top.setNext(temp);
         }
     }
     // ---------------------------------------------------
@@ -33,10 +33,13 @@ public class LinkedStack implements StackADT {
         Object item;
         if(!isEmpty()) {
             item = top.getElement();
-            top = top.getNext();
+            top.setElement(top.getNext().getElement());
             return item;
         }
-        else return null;
+        else{
+            top.setElement(null);
+            return null;
+        }
     }
     // ---------------------------------------------------
     // Returns true if stack is empty, false otherwise.

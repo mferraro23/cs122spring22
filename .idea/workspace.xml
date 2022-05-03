@@ -7,8 +7,6 @@
     <list default="true" id="dbb51ae9-49e8-4389-9584-4a96121f7e4a" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;Fixed File not running in the master branch ../LinkedStack">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CS122/out/production/CS122/assignments/assignment6/LinkedStack/LinkedStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/out/production/CS122/assignments/assignment6/LinkedStack/LinkedStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/src/assignments/assignment6/LinkedStack/LinkedStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/src/assignments/assignment6/LinkedStack/LinkedStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/src/assignments/assignment6/LinkedStack/StackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/src/assignments/assignment6/LinkedStack/StackTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,21 +46,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/HP/Documents/GitHub/cs122spring22&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/HP/Documents/GitHub/cs122spring22",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="assignments.assignment2.Firm" />
@@ -74,7 +76,7 @@
       <recent name="assignments.assignment2.Sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StackTest">
+  <component name="RunManager" selected="Application.assignments.assignment6.StackManipulation.StackTest">
     <configuration name="BaseConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="assignments.assignment4.BaseConversion.BaseConversion" />
       <module name="CS122" />
@@ -94,19 +96,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="classSamples.collections.Decode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DocumentDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="assignments.assignment4.InvalidDocumentCodeException.DocumentDriver" />
-      <module name="CS122" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="assignments.assignment4.InvalidDocumentCodeException.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,13 +129,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="assignments.assignment6.StackManipulation.StackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="assignments.assignment6.StackManipulation.StackTest" />
+      <module name="CS122" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="assignments.assignment6.StackManipulation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.assignments.assignment6.StackManipulation.StackTest" />
         <item itemvalue="Application.StackTest" />
         <item itemvalue="Application.IntListTest" />
         <item itemvalue="Application.Decode" />
         <item itemvalue="Application.BaseConversion" />
-        <item itemvalue="Application.DocumentDriver" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +194,7 @@
       <workItem from="1651166768454" duration="55000" />
       <workItem from="1651250632261" duration="2388000" />
       <workItem from="1651543342779" duration="1952000" />
-      <workItem from="1651550203758" duration="1781000" />
+      <workItem from="1651550203758" duration="3049000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/master'">
       <created>1650950454816</created>

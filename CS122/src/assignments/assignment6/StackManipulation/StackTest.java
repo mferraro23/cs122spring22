@@ -1,5 +1,6 @@
 package assignments.assignment6.StackManipulation;
 
+import java.util.Collections;
 import java.util.Stack;
 
 public class StackTest {
@@ -16,17 +17,9 @@ public class StackTest {
         return newStack;
     }
     static public Stack<Integer> removeElement(Stack<Integer> stack, int val){
-        Stack<Integer> newStack = new Stack<Integer>();
-        while(!stack.isEmpty()){
-            int temp = stack.elements().nextElement();
-            if (temp == val){
-                stack.pop();
-                newStack.push(temp);
-            }
-            else{
-                newStack.push(temp);
-            }
-        }
+        Stack<Integer> newStack;
+        newStack = stack;
+        newStack.removeAll(Collections.singleton(val));
         return newStack;
     }
     public static void main(String[] args)
@@ -37,15 +30,45 @@ public class StackTest {
         for (int i=0; i<10; i++) {
             stack.push(i);
         }
-        //stack.push(5);
-        //printStack(stack);
-        //Stack<Integer> reverse = reverseStack(stack);
-        //printStack(reverse);
-        Stack<Integer> newStack = removeElement(stack,2);
-        System.out.println("New Stack:");
-        printStack(newStack);
+        stack.push(5);
+        System.out.println("------------------------");
+
+        // Print Stack
+        System.out.println("Stack Printed Normally: ");
+        System.out.println("------------------------");
+        printStack(stack);
+        for (int i=0; i<10; i++) {
+            stack.push(i);
+        }
+        stack.push(5);
+        System.out.println("------------------------");
+
+        // Reverse Stack
+        System.out.println("Stack Printed Reversed: ");
+        System.out.println("------------------------");
+        Stack<Integer> reverse = reverseStack(stack);
+        printStack(reverse);
+        for (int i=0; i<10; i++) {
+            stack.push(i);
+        }
+        stack.push(5);
+        System.out.println("------------------------");
+
+        //Remove Element
+        //New Stack
+        System.out.println("Stack Printed Removing an Element: ");
+        System.out.println("------------------------");
+        System.out.println("New Stack");
+        Stack<Integer> removeStack = removeElement(stack,2);
+        printStack(removeStack);
+        for (int i=0; i<10; i++) {
+            stack.push(i);
+        }
+        stack.push(5);
+        //Old Stack
+        System.out.println("------------------------");
         System.out.println("Old Stack:");
         printStack(stack);
-        //comment out ones at a time otherwise nothing gets printed after the first due to pop method.
+        System.out.println("------------------------");
     }
 }

@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbb51ae9-49e8-4389-9584-4a96121f7e4a" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;Fixed File not running in the master branch ../LinkedStack" />
+    <list default="true" id="dbb51ae9-49e8-4389-9584-4a96121f7e4a" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;Fixed File not running in the master branch ../LinkedStack">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS122/out/production/CS122/assignments/assignment6/LinkedStack/LinkedStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/out/production/CS122/assignments/assignment6/LinkedStack/LinkedStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS122/src/assignments/assignment6/LinkedStack/LinkedStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/src/assignments/assignment6/LinkedStack/LinkedStack.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -186,7 +190,7 @@
       <workItem from="1651089860533" duration="11176000" />
       <workItem from="1651166768454" duration="55000" />
       <workItem from="1651250632261" duration="2388000" />
-      <workItem from="1651543342779" duration="1136000" />
+      <workItem from="1651543342779" duration="1952000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/master'">
       <created>1650950454816</created>

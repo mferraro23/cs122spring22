@@ -20,7 +20,14 @@ public class LinkedStack implements StackADT {
             top.setElement(val);
         }
         else {
-            top.setNext(newNode);
+            if (top.getNext() == null){
+                top.setNext(newNode);
+                top = top.getNext();
+            }
+            else{
+                top.setNext(top.getNext());
+            }
+
         }
     }
     // ---------------------------------------------------

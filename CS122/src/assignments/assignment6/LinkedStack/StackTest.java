@@ -16,7 +16,7 @@ public class StackTest {
             System.out.print(stack.pop() + " ");
             System.out.println();
         }
-        /*
+
         //push a few more things
         for (int i=1; i<=6; i++) {
             stack.push(i);
@@ -27,6 +27,6 @@ public class StackTest {
             System.out.print(stack.pop() + " ");
             System.out.println();
         }
-         */
+
     }
 }

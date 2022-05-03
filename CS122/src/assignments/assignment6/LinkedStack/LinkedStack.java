@@ -1,5 +1,6 @@
 package assignments.assignment6.LinkedStack;
 
+import static java.lang.System.exit;
 
 public class LinkedStack implements StackADT {
     private Node top; // reference to top of stack
@@ -32,14 +33,13 @@ public class LinkedStack implements StackADT {
     // ---------------------------------------------------
     @Override
     public Object pop() {
-        Object item;
-        if(!isEmpty()) {
-            item = top.getElement();
-            top.setElement(top.getNext().getElement());
-            return item;
+        if (!isEmpty()){
+            Object node = top.getElement();
+            top = top.getNext();
+            return node;
         }
         else{
-            return null;
+            return 0;
         }
     }
     // ---------------------------------------------------

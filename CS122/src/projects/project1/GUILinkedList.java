@@ -97,53 +97,32 @@ class LinkedList<T> extends VBox {
         Node<T> node = new Node<>(value);
 
         if (head == null) {
-
             head = node;
-
-            tail = node;
-
         } else {
-
             tail.setNext(node);
-
-            tail = node;
-
         }
-
+        tail = node;
         this.getChildren().add(node);
-
     }
 
     public void remove() {
 
         if (head == null) {
-
             throw new RuntimeException("List is empty");
-
         }
-
         this.getChildren().remove(head);
-
         head = head.getNext();
 
         if (head == null) {
-
             tail = null;
-
         }
-
     }
 
     public void clear() {
-
         this.getChildren().clear();
-
         head = null;
-
         tail = null;
-
     }
-
     @Override
 
     public String toString() {
@@ -153,17 +132,13 @@ class LinkedList<T> extends VBox {
             return "null";
 
         }
-
         return head.toString();
-
     }
-
 }
 
 class Node<T> extends HBox {
 
     private T value;
-
     private Node<T> next;
 
     public Node(T value) {

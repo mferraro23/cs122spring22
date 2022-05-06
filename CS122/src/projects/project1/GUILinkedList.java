@@ -31,12 +31,9 @@ public class GUILinkedList extends Application {
         Button button = new Button("Add");
         button.setTranslateX(25);
         button.setTranslateY(25);
-        button.setOnAction(new EventHandler<ActionEvent>(){
-            @Override
-            public void handle(ActionEvent actionEvent) {
-                text = textField.getText();
-                System.out.println(text);
-            }
+        button.setOnAction(actionEvent -> {
+            text = textField.getText();
+            System.out.println(text);
         });
 
         Button button1 = new Button("Delete");

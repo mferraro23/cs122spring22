@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dbb51ae9-49e8-4389-9584-4a96121f7e4a" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;Fixed File not running in the master branch ../LinkedStack">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/src/assignments/assignment6/LinkedStack/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/src/assignments/assignment6/LinkedStack/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS122/src/projects/project1/GUILinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/src/projects/project1/GUILinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,9 +16,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaFXApplication" />
         <option value="Class" />
         <option value="Interface" />
-        <option value="JavaFXApplication" />
       </list>
     </option>
   </component>
@@ -206,7 +206,7 @@
       <workItem from="1651550203758" duration="6090000" />
       <workItem from="1651556625392" duration="116000" />
       <workItem from="1651793386215" duration="63000" />
-      <workItem from="1651859327187" duration="2669000" />
+      <workItem from="1651859327187" duration="2846000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/master'">
       <created>1650950454816</created>

@@ -1,5 +1,8 @@
 package projects.project1;
 
+import assignments.assignment6.LinkedStack.LinkedStack;
+import assignments.assignment6.LinkedStack.Node;
+import assignments.assignment6.LinkedStack.StackADT;
 import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
@@ -14,8 +17,13 @@ import javafx.stage.Stage;
 
 public class GUILinkedList extends Application {
     String textInput;
+    private Node top;
+    public GUILinkedList(){
+        top = new Node();
+    }
 
     public static void main(String[] args) {
+        StackADT stack = new LinkedStack();
         launch(args);
     }
 

@@ -8,6 +8,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
+import javafx.scene.layout.Background;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
@@ -22,6 +23,7 @@ public class GUILinkedList extends Application {
     @Override
     public void start(Stage primaryStage) {
         Color background = Color.rgb(1,46,64);
+        Color buttonBackground = Color.rgb(242,227,213);
         Label label1 = new Label("Value:");
         label1.setTranslateX(10);
         label1.setTranslateY(10);
@@ -29,6 +31,7 @@ public class GUILinkedList extends Application {
         textField.setTranslateX(30);
         textField.setTranslateY(10);
         Button button = new Button("Add");
+        button.setBackground(Background.fill(buttonBackground));
         button.setTranslateX(25);
         button.setTranslateY(45);
         button.setOnAction(actionEvent -> {
@@ -42,6 +45,9 @@ public class GUILinkedList extends Application {
         Button button2 = new Button("Clear");
         button2.setTranslateX(135);
         button2.setTranslateY(45);
+
+
+
         Group root = new Group(button, button1, button2, label1, textField);
         Scene scene = new Scene(root, 750, 500, background);
 

@@ -13,7 +13,7 @@ import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
 public class GUILinkedList extends Application {
-    String text;
+    String textInput;
 
     public static void main(String[] args) {
         launch(args);
@@ -24,19 +24,23 @@ public class GUILinkedList extends Application {
     public void start(Stage primaryStage) {
         Color background = Color.rgb(1,46,64);
         Color buttonBackground = Color.rgb(242,227,213);
+        Color labelText = Color.rgb(60, 166, 166);
+        Color labelBackground = Color.rgb(2,73,89);
         Label label1 = new Label("Value:");
-        label1.setTranslateX(10);
+        label1.setBackground(Background.fill(labelBackground));
+        label1.setTextFill(labelText);
+        label1.setTranslateX(0);
         label1.setTranslateY(10);
         TextField textField = new TextField ();
-        textField.setTranslateX(30);
+        textField.setTranslateX(35);
         textField.setTranslateY(10);
         Button button = new Button("Add");
         button.setBackground(Background.fill(buttonBackground));
         button.setTranslateX(25);
         button.setTranslateY(45);
         button.setOnAction(actionEvent -> {
-            text = textField.getText();
-            System.out.println(text);
+            textInput = textField.getText();
+            System.out.println(textInput);
         });
 
         Button button1 = new Button("Delete");
@@ -47,8 +51,10 @@ public class GUILinkedList extends Application {
         button2.setTranslateX(135);
         button2.setTranslateY(45);
         button2.setBackground(Background.fill(buttonBackground));
-
-        Group root = new Group(button, button1, button2, label1, textField);
+        Group controls = new Group(button, button1, button2, label1, textField);
+        controls.setTranslateX(150);
+        controls.setTranslateY(50);
+        Group root = new Group(controls);
         Scene scene = new Scene(root, 750, 500, background);
 
         primaryStage.setTitle("Linked List GUI");

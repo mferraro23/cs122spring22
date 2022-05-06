@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbb51ae9-49e8-4389-9584-4a96121f7e4a" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;Fixed File not running in the master branch ../LinkedStack" />
+    <list default="true" id="dbb51ae9-49e8-4389-9584-4a96121f7e4a" name="Changes" comment="update">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS122/out/production/CS122/assignments/assignment6/LinkedStack/LinkedStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/out/production/CS122/assignments/assignment6/LinkedStack/LinkedStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS122/out/production/CS122/assignments/assignment6/LinkedStack/StackTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/out/production/CS122/assignments/assignment6/LinkedStack/StackTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS122/src/assignments/assignment6/LinkedStack/LinkedStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/src/assignments/assignment6/LinkedStack/LinkedStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS122/src/assignments/assignment6/LinkedStack/StackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/src/assignments/assignment6/LinkedStack/StackTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,9 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaFXApplication" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -46,19 +52,15 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Michael/Documents/JavaFX/javafx-sdk-18.0.1/lib&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/HP/Documents/GitHub/cs122spring22&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
@@ -74,13 +76,13 @@
       <recent name="assignments.assignment2.Sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.projects.project1.GUILinkedList">
-    <configuration name="IntListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="assignments.assignment5.IntListTest" />
+  <component name="RunManager" selected="Application.StackTest">
+    <configuration name="BaseConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="assignments.assignment4.BaseConversion.BaseConversion" />
       <module name="CS122" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="assignments.assignment5.*" />
+          <option name="PATTERN" value="assignments.assignment4.BaseConversion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +90,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParenMatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="assignments.assignment6.MatchingParentheses.ParenMatch" />
+    <configuration name="Decode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classSamples.collections.Decode.Decode" />
       <module name="CS122" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="assignments.assignment6.MatchingParentheses.*" />
+          <option name="PATTERN" value="classSamples.collections.Decode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DocumentDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="assignments.assignment4.InvalidDocumentCodeException.DocumentDriver" />
+      <module name="CS122" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="assignments.assignment4.InvalidDocumentCodeException.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="assignments.assignment5.IntListTest" />
+      <module name="CS122" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="assignments.assignment5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,47 +142,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="assignments.assignment6.StackManipulation.StackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="assignments.assignment6.StackManipulation.StackTest" />
-      <module name="CS122" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="assignments.assignment6.StackManipulation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="projects.project1.GUILinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="projects.project1.GUILinkedList" />
-      <module name="CS122" />
-      <option name="VM_PARAMETERS" value="--module-path C:\Users\Michael\Documents\JavaFX\javafx-sdk-18.0.1\lib --add-modules=javafx.controls" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="projects.project1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.assignments.assignment6.StackManipulation.StackTest" />
-      <item itemvalue="Application.projects.project1.GUILinkedList" />
-      <item itemvalue="Application.IntListTest" />
-      <item itemvalue="Application.ParenMatch" />
-      <item itemvalue="Application.StackTest" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.projects.project1.GUILinkedList" />
-        <item itemvalue="Application.ParenMatch" />
-        <item itemvalue="Application.assignments.assignment6.StackManipulation.StackTest" />
         <item itemvalue="Application.StackTest" />
         <item itemvalue="Application.IntListTest" />
+        <item itemvalue="Application.Decode" />
+        <item itemvalue="Application.BaseConversion" />
+        <item itemvalue="Application.DocumentDriver" />
       </list>
     </recent_temporary>
   </component>
@@ -198,13 +192,9 @@
       <workItem from="1650950419133" duration="82000" />
       <workItem from="1651089860533" duration="11176000" />
       <workItem from="1651166768454" duration="55000" />
-      <workItem from="1651250632261" duration="2388000" />
-      <workItem from="1651543342779" duration="1952000" />
-      <workItem from="1651550203758" duration="6090000" />
-      <workItem from="1651556625392" duration="116000" />
-      <workItem from="1651793386215" duration="63000" />
-      <workItem from="1651859327187" duration="3194000" />
-      <workItem from="1651862676442" duration="559000" />
+      <workItem from="1651250632261" duration="2358000" />
+      <workItem from="1651869867258" duration="72000" />
+      <workItem from="1651869979977" duration="49000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/master'">
       <created>1650950454816</created>
@@ -220,14 +210,7 @@
       <option name="project" value="LOCAL" />
       <updated>1651166813790</updated>
     </task>
-    <task id="LOCAL-00003" summary="Merge remote-tracking branch 'origin/master'&#10;Fixed File not running in the master branch ../LinkedStack">
-      <created>1651543549140</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1651543549140</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,7 +229,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
-    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;Fixed File not running in the master branch ../LinkedStack" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;Fixed File not running in the master branch ../LinkedStack" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'" />
   </component>
 </project>

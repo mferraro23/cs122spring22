@@ -49,18 +49,14 @@ public class GUILinkedList extends Application implements projects.project1.Stac
             return 0;
         }
     }
-
     @Override
     public boolean isEmpty() {
         return top == null;
     }
-
     @Override
     public boolean isFull() {
         return false;
     }
-
-
     @Override
     public void start(Stage primaryStage) {
         Color background = Color.rgb(1,46,64);
@@ -79,10 +75,15 @@ public class GUILinkedList extends Application implements projects.project1.Stac
         button.setBackground(Background.fill(buttonBackground));
         button.setTranslateX(25);
         button.setTranslateY(45);
+        Label label2 = new Label("");
+        label2.setTranslateX(200);
+        label2.setTranslateY(400);
         button.setOnAction(actionEvent -> {
             textInput = textField.getText();
-            System.out.println(textInput);
+            push(textInput);
+            label2.textField.setText();
         });
+
 
         Button button1 = new Button("Delete");
         button1.setTranslateX(75);
@@ -95,7 +96,7 @@ public class GUILinkedList extends Application implements projects.project1.Stac
         Group controls = new Group(button, button1, button2, label1, textField);
         controls.setTranslateX(150);
         controls.setTranslateY(50);
-        Group root = new Group(controls);
+        Group root = new Group(controls, label2);
         Scene scene = new Scene(root, 750, 500, background);
 
         primaryStage.setTitle("Linked List GUI");

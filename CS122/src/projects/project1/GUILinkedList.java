@@ -30,7 +30,7 @@ public class GUILinkedList extends Application {
         textField.setTranslateY(10);
         Button button = new Button("Add");
         button.setTranslateX(25);
-        button.setTranslateY(25);
+        button.setTranslateY(45);
         button.setOnAction(actionEvent -> {
             text = textField.getText();
             System.out.println(text);
@@ -38,10 +38,10 @@ public class GUILinkedList extends Application {
 
         Button button1 = new Button("Delete");
         button1.setTranslateX(75);
-        button1.setTranslateY(25);
+        button1.setTranslateY(45);
         Button button2 = new Button("Clear");
         button2.setTranslateX(135);
-        button2.setTranslateY(25);
+        button2.setTranslateY(45);
         Group root = new Group(button, button1, button2, label1, textField);
         Scene scene = new Scene(root, 750, 500, background);
 

@@ -1,107 +1,219 @@
 package projects.project1;
 
-import assignments.assignment6.LinkedStack.LinkedStack;
-import assignments.assignment6.LinkedStack.Node;
-import assignments.assignment6.LinkedStack.StackADT;
 import javafx.application.Application;
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
-import javafx.scene.Group;
+
 import javafx.scene.Scene;
+
 import javafx.scene.control.Button;
-import javafx.scene.control.Label;
+
 import javafx.scene.control.TextField;
-import javafx.scene.layout.Background;
-import javafx.scene.paint.Color;
+
+import javafx.scene.layout.HBox;
+
+import javafx.scene.layout.VBox;
+
 import javafx.stage.Stage;
 
-public class GUILinkedList extends Application implements projects.project1.StackADT {
-    String textInput;
-    private Node top;
-    public GUILinkedList(){
-        top = new Node();
+public class GUILinkedList extends Application {
+
+    private LinkedList<String> list = new LinkedList<>();
+
+    @Override
+
+    public void start(Stage primaryStage) {
+
+        TextField textField = new TextField();
+
+        Button addButton = new Button("Add");
+
+        Button removeButton = new Button("Remove");
+
+        Button clearButton = new Button("Clear");
+
+        addButton.setOnAction(e -> {
+
+            String value = textField.getText();
+
+            list.add(value);
+
+            textField.clear();
+
+        });
+
+        removeButton.setOnAction(e -> {
+
+            list.remove();
+
+        });
+
+        clearButton.setOnAction(e -> {
+
+            list.clear();
+
+        });
+
+        HBox hBox = new HBox(10);
+
+        hBox.getChildren().addAll(textField, addButton, removeButton, clearButton);
+
+        VBox vBox = new VBox(10);
+
+        vBox.getChildren().addAll(list, hBox);
+
+        Scene scene = new Scene(vBox, 400, 400);
+
+        primaryStage.setScene(scene);
+
+        primaryStage.show();
+
     }
 
     public static void main(String[] args) {
-        StackADT stack = new LinkedStack();
+
         launch(args);
+
     }
-    @Override
-    public void push(Object val) {
-        Node newNode = new Node(val);
-        if (isEmpty()){
-            newNode.setNext(null);
+
+}
+
+class LinkedList<T> extends VBox {
+
+    private Node<T> head;
+
+    private Node<T> tail;
+
+    public LinkedList() {
+
+        super(10);
+
+        this.head = null;
+
+        this.tail = null;
+
+    }
+
+    public void add(T value) {
+
+        Node<T> node = new Node<>(value);
+
+        if (head == null) {
+
+            head = node;
+
+            tail = node;
+
+        } else {
+
+            tail.setNext(node);
+
+            tail = node;
+
         }
-        else{
-            newNode.setNext(top);
-            top = newNode;
+
+        this.getChildren().add(node);
+
+    }
+
+    public void remove() {
+
+        if (head == null) {
+
+            throw new RuntimeException("List is empty");
+
         }
+
+        this.getChildren().remove(head);
+
+        head = head.getNext();
+
+        if (head == null) {
+
+            tail = null;
+
+        }
+
+    }
+
+    public void clear() {
+
+        this.getChildren().clear();
+
+        head = null;
+
+        tail = null;
+
     }
 
     @Override
-    public Object pop() {
-        if (!isEmpty()){
-            Object node = top.getElement();
-            top = top.getNext();
-            return node;
+
+    public String toString() {
+
+        if (head == null) {
+
+            return "null";
+
         }
-        else{
-            return 0;
+
+        return head.toString();
+
+    }
+
+}
+
+class Node<T> extends HBox {
+
+    private T value;
+
+    private Node<T> next;
+
+    public Node(T value) {
+
+        super(10);
+
+        this.value = value;
+
+        this.next = null;
+
+        this.getChildren().add(new Button(value.toString()));
+
+    }
+
+    public T getValue() {
+
+        return value;
+
+    }
+
+    public void setValue(T value) {
+
+        this.value = value;
+
+    }
+
+    public Node<T> getNext() {
+
+        return next;
+
+    }
+
+    public void setNext(Node<T> next) {
+
+        this.next = next;
+
+    }
+
+    @Override
+
+    public String toString() {
+
+        if (next == null) {
+
+            return value + " -> null";
+
         }
-    }
-    @Override
-    public boolean isEmpty() {
-        return top == null;
-    }
-    @Override
-    public boolean isFull() {
-        return false;
-    }
-    @Override
-    public void start(Stage primaryStage) {
-        Color background = Color.rgb(1,46,64);
-        Color buttonBackground = Color.rgb(242,227,213);
-        Color labelText = Color.rgb(60, 166, 166);
-        Color labelBackground = Color.rgb(2,73,89);
-        Label label1 = new Label("Value:");
-        label1.setBackground(Background.fill(labelBackground));
-        label1.setTextFill(labelText);
-        label1.setTranslateX(0);
-        label1.setTranslateY(10);
-        TextField textField = new TextField ();
-        textField.setTranslateX(35);
-        textField.setTranslateY(10);
-        Button button = new Button("Add");
-        button.setBackground(Background.fill(buttonBackground));
-        button.setTranslateX(25);
-        button.setTranslateY(45);
-        Label label2 = new Label("");
-        label2.setTranslateX(200);
-        label2.setTranslateY(400);
-        button.setOnAction(actionEvent -> {
-            textInput = textField.getText();
-            push(textInput);
-            label2.textField.setText();
-        });
 
+        return value + " -> " + next.toString();
 
-        Button button1 = new Button("Delete");
-        button1.setTranslateX(75);
-        button1.setTranslateY(45);
-        button1.setBackground(Background.fill(buttonBackground));
-        Button button2 = new Button("Clear");
-        button2.setTranslateX(135);
-        button2.setTranslateY(45);
-        button2.setBackground(Background.fill(buttonBackground));
-        Group controls = new Group(button, button1, button2, label1, textField);
-        controls.setTranslateX(150);
-        controls.setTranslateY(50);
-        Group root = new Group(controls, label2);
-        Scene scene = new Scene(root, 750, 500, background);
-
-        primaryStage.setTitle("Linked List GUI");
-        primaryStage.setScene(scene);
-        primaryStage.show();
     }
 
 }

@@ -24,8 +24,6 @@ public class LinkedStack implements StackADT {
             newNode.setNext(top);
             top = newNode;
         }
-
-
     }
     // ---------------------------------------------------
     // Removes and returns value at top of stack. If stack

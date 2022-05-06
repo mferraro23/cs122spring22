@@ -26,6 +26,39 @@ public class GUILinkedList extends Application implements projects.project1.Stac
         StackADT stack = new LinkedStack();
         launch(args);
     }
+    @Override
+    public void push(Object val) {
+        Node newNode = new Node(val);
+        if (isEmpty()){
+            newNode.setNext(null);
+        }
+        else{
+            newNode.setNext(top);
+            top = newNode;
+        }
+    }
+
+    @Override
+    public Object pop() {
+        if (!isEmpty()){
+            Object node = top.getElement();
+            top = top.getNext();
+            return node;
+        }
+        else{
+            return 0;
+        }
+    }
+
+    @Override
+    public boolean isEmpty() {
+        return top == null;
+    }
+
+    @Override
+    public boolean isFull() {
+        return false;
+    }
 
 
     @Override
@@ -70,37 +103,4 @@ public class GUILinkedList extends Application implements projects.project1.Stac
         primaryStage.show();
     }
 
-    @Override
-    public void push(Object val) {
-        Node newNode = new Node(val);
-        if (isEmpty()){
-            newNode.setNext(null);
-        }
-        else{
-            newNode.setNext(top);
-            top = newNode;
-        }
-    }
-
-    @Override
-    public Object pop() {
-        if (!isEmpty()){
-            Object node = top.getElement();
-            top = top.getNext();
-            return node;
-        }
-        else{
-            return 0;
-        }
-    }
-
-    @Override
-    public boolean isEmpty() {
-        return top == null;
-    }
-
-    @Override
-    public boolean isFull() {
-        return false;
-    }
 }

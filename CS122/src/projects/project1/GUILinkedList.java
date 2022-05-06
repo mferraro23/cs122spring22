@@ -15,7 +15,7 @@ import javafx.scene.layout.Background;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
-public class GUILinkedList extends Application {
+public class GUILinkedList extends Application implements projects.project1.StackADT {
     String textInput;
     private Node top;
     public GUILinkedList(){
@@ -68,5 +68,39 @@ public class GUILinkedList extends Application {
         primaryStage.setTitle("Linked List GUI");
         primaryStage.setScene(scene);
         primaryStage.show();
+    }
+
+    @Override
+    public void push(Object val) {
+        Node newNode = new Node(val);
+        if (isEmpty()){
+            newNode.setNext(null);
+        }
+        else{
+            newNode.setNext(top);
+            top = newNode;
+        }
+    }
+
+    @Override
+    public Object pop() {
+        if (!isEmpty()){
+            Object node = top.getElement();
+            top = top.getNext();
+            return node;
+        }
+        else{
+            return 0;
+        }
+    }
+
+    @Override
+    public boolean isEmpty() {
+        return top == null;
+    }
+
+    @Override
+    public boolean isFull() {
+        return false;
     }
 }

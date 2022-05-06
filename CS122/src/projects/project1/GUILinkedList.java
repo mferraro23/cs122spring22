@@ -42,11 +42,11 @@ public class GUILinkedList extends Application {
         Button button1 = new Button("Delete");
         button1.setTranslateX(75);
         button1.setTranslateY(45);
+        button1.setBackground(Background.fill(buttonBackground));
         Button button2 = new Button("Clear");
         button2.setTranslateX(135);
         button2.setTranslateY(45);
-
-
+        button2.setBackground(Background.fill(buttonBackground));
 
         Group root = new Group(button, button1, button2, label1, textField);
         Scene scene = new Scene(root, 750, 500, background);

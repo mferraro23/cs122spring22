@@ -3,6 +3,7 @@ package projects.project1;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
@@ -98,7 +99,7 @@ class Node<T> extends HBox {
         super(10);
         this.value = value;
         this.next = null;
-        this.getChildren().add(new Button(value.toString()));
+        this.getChildren().add(new Label(value.toString()));
     }
     public T getValue() {
         return value;
@@ -114,9 +115,14 @@ class Node<T> extends HBox {
     }
     @Override
     public String toString() {
+        String message = "";
         if (next == null) {
-            return value + " -> null";
+            message = value + " -> null";
         }
-        return value + " -> " + next.toString();
+        else{
+            message += value + " -> " + next;
+        }
+        return message;
+
     }
 }

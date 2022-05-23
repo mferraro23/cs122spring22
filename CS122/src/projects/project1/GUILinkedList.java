@@ -3,6 +3,7 @@ package projects.project1;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
@@ -14,14 +15,25 @@ public class GUILinkedList extends Application {
 
     @Override
     public void start(Stage primaryStage) {
+        Label label = new Label("null");
+        label.setTranslateX(0);
+        label.setTranslateY(0);
 
         TextField textField = new TextField();
+        textField.setTranslateX(0);
+        textField.setTranslateY(50);
 
         Button addButton = new Button("Add");
+        addButton.setTranslateX(15);
+        addButton.setTranslateY(50);
 
         Button removeButton = new Button("Remove");
+        removeButton.setTranslateX(35);
+        removeButton.setTranslateY(50);
 
         Button clearButton = new Button("Clear");
+        clearButton.setTranslateX(55);
+        clearButton.setTranslateY(50);
 
         addButton.setOnAction(e -> {
             String value = textField.getText();
@@ -37,9 +49,11 @@ public class GUILinkedList extends Application {
             list.clear();
         });
 
-        HBox hBox = new HBox(10);
-        hBox.getChildren().addAll(textField, addButton, removeButton, clearButton);
+        HBox hBox = new HBox(2);
+
+        hBox.getChildren().addAll(label, textField, addButton, removeButton, clearButton);
         VBox vBox = new VBox(10);
+
         vBox.getChildren().addAll(list, hBox);
         Scene scene = new Scene(vBox, 400, 400);
         primaryStage.setScene(scene);
@@ -98,7 +112,7 @@ class Node<T> extends HBox {
         super(10);
         this.value = value;
         this.next = null;
-        this.getChildren().add(new Button(value.toString()));
+        this.getChildren().add(new Label(value.toString() + " --> "));
     }
     public T getValue() {
         return value;
@@ -114,9 +128,14 @@ class Node<T> extends HBox {
     }
     @Override
     public String toString() {
+        String message = "";
         if (next == null) {
-            return value + " -> null";
+            message = value + " -> null";
         }
-        return value + " -> " + next.toString();
+        else{
+            message += value + " -> " + next;
+        }
+        return message;
+
     }
 }

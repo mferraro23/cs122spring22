@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbb51ae9-49e8-4389-9584-4a96121f7e4a" name="Changes" comment="Updated Final">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_2_2022_2_45_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_2_2022_2_45_PM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_6_2022_4_43_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_6_2022_4_43_PM__Changes_.xml" afterDir="false" />
+    <list default="true" id="dbb51ae9-49e8-4389-9584-4a96121f7e4a" name="Changes" comment="FINALIZED FINAL PROJECT">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_2_2022_2_45_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_2_2022_2_45_PM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_6_2022_4_43_PM_[Changes]/LinkedStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_6_2022_4_43_PM_[Changes]/StackTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_6_2022_4_43_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_6_2022_4_43_PM__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/CS122/assignments/assignment6/LinkedStack/LinkedStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/out/production/CS122/assignments/assignment6/LinkedStack/LinkedStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/CS122/projects/project1/GUILinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/out/production/CS122/projects/project1/GUILinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/CS122/projects/project1/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/out/production/CS122/projects/project1/LinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/out/production/CS122/projects/project1/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/out/production/CS122/projects/project1/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS122/src/projects/project1/GUILinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS122/src/projects/project1/GUILinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,7 +214,12 @@
       <workItem from="1651793386215" duration="63000" />
       <workItem from="1651859327187" duration="3194000" />
       <workItem from="1651862676442" duration="567000" />
-      <workItem from="1652212401199" duration="1447000" />
+      <workItem from="1652212401199" duration="1506000" />
+      <workItem from="1652213931332" duration="28000" />
+      <workItem from="1652214360074" duration="238000" />
+      <workItem from="1652363908053" duration="41000" />
+      <workItem from="1652896123771" duration="120000" />
+      <workItem from="1653190025236" duration="26000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/master'">
       <created>1650950454816</created>
@@ -252,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652212717203</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="FINALIZED FINAL PROJECT">
+      <created>1652213901826</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1652213901826</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,6 +284,7 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;Fixed File not running in the master branch ../LinkedStack" />
     <MESSAGE value="Updated Final" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Final" />
+    <MESSAGE value="FINALIZED FINAL PROJECT" />
+    <option name="LAST_COMMIT_MESSAGE" value="FINALIZED FINAL PROJECT" />
   </component>
 </project>
